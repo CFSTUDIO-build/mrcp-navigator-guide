@@ -1,0 +1,1355 @@
+question_number,question_text,options_json,answer_text,answer_index,explanation_text
+1,"A 24-year-old man attends the emergency department with left eye swelling and painful eye movements.
+
+He is usually fit and well with a past medical history of chronic sinusitis only.
+
+On examination, his left eye is swollen shut with marked eyelid oedema and erythema that extends from the maxilla up to the eyebrow. When the eye is manually opened there is chemosis.
+
+What would the most appropriate initial treatment be for this patient?","[""Immediate CT head"", ""Intravenous antibiotics"", ""Ophthalmology review"", ""Oral antibiotics"", ""Topical chloramphenicol""]",Intravenous antibiotics,1,"Patients with orbital cellulitis require admission to hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread
+
+This patient has evidence of orbital cellulitis which necessitates urgent treatment with intravenous antibiotics due to the risk to sight and risk of spread.
+
+Orbital swellings are classified by 'Chandler's classification':
+
+I. Pre-septal cellulitis
+II. Orbital cellulitis without abscess
+III. Orbital cellulitis with subperiosteal abscess
+IV. Intra-orbital abscess
+V. Cavernous sinus thrombosis
+
+Pre-septal cellulitis involves tissues anterior to the orbital septum i.e. the eyelids. Orbital cellulitis involves tissues behind the orbital septum and can progress to cavernous sinus thrombosis.
+
+Signs that point to orbital cellulitis rather the pre-septal cellulitis include:
+
+Painful eye movements
+Restricted eye movements
+Reduction in colour vision
+Abnormal pupillary responses to light
+Reduced visual acuity
+Reduced visual fields
+Presence of chemosis
+Presence of proptosis
+
+Intravenous antibiotics
+
+are the most important part of the initial treatment for orbital cellulitis to treat the underlying infection. If there is evidence of intracranial spread or abscess on CT scan the patient may also require external drainage or neurosurgical intervention. Do not delay starting antibiotics whilst awaiting specialist review.
+
+Immediate CT head
+
+does form part of the management for orbital cellulitis but it is not the initial priority, treatment with antibiotics takes precedence. The reasoning behind doing a CT head is to assess the extent of spread. For pre-septal cellulitis, a CT head is not usually required but may be completed if the diagnosis is uncertain or examination is difficult e.g. due to extreme swelling.
+
+Ophthalmology review
+
+is important in the management of orbital cellulitis, these patients are usually managed under the joint care of ENT and ophthalmology. Waiting for or requesting a specialist review, however, should not delay the administration of antibiotics and so is not the priority.
+
+Oral antibiotics
+
+wouldn't be appropriate due to the potential severity of this infection. It is recommended that antibiotics are administered via the IV route rather than oral.
+
+Topical chloramphenicol
+
+would not be sufficient to treat orbital cellulitis, systemic therapy is required to deliver sufficient antibiotics to the area of infection."
+2,"A 74-year-old myopic woman with known hypertension presents with a sudden, painless reduction in her vision. She describes a dense shadow obscuring her right eye, this started peripherally and has progressed towards the central vision.
+
+On examination, she can only see hand movements in her right eye and has 6/6 visual acuity in her left eye.
+
+What is the most likely cause of the loss of vision?","[""Central retinal artery occlusion"", ""Central retinal vein occlusion"", ""Optic neuritis"", ""Retinal detachment"", ""Vitreous hemorrhage""]",Retinal detachment,3,"Retinal detachment is a cause of sudden painless loss of vision. It is characterised by a dense shadow starting peripherally and progressing centrally
+
+Central retinal artery occlusion occurs due to a blockage of blood flow from thromboembolism for arteritis. It can cause a partial or complete sudden, painless loss of vision. However, this doesn't tend to occur peripherally and move centrally as described here. Typical features include afferent pupillary defect, 'cherry red' spot on a pale retina.
+
+Central retinal vein occlusion is more common than arterial occlusion and occurs with increasing age, but unlike here is more common in patients with glaucoma. It can cause sudden painless loss of vision in any venous territory and the ophthalmoscope shows severe retinal haemorrhages.
+
+This case is typical of retinal detachment. It occurs more commonly in people with myopia. It can be preceded by flashes and floaters and tends to present with a shadow to the vision beginning peripherally and progressing centrally.
+
+Optic neuritis can cause sudden visual loss but this is often transient and associated with painful eye movement.
+
+The vitreous hemorrhage causes a dark spot to a vision where the hemorrhage is rather than a shadow to the vision."
+3,A 24-year-old man presents to the emergency department complaining of left eye pain. He has not been able to wear his contact lenses for the past 24 hours due to the pain. He describes the pain as severe and wonders whether he has 'got something stuck in his eye'. On examination there is diffuse hyperaemia of the left eye. The left cornea appears hazy and pupillary reaction is normal. Visual acuity is reduced on the left side and a degree of photophobia is noted. A hypopyon is also seen. What is the most likely diagnosis?,"[""Acute angle closure glaucoma"", ""Viral conjunctivitis"", ""Keratitis"", ""Episcleritis"", ""Anterior uveitis""]",Keratitis,2,
+4,A 67-year-old man who is known to have raised intraocular pressure is prescribed dorzolamide eye drops. What is the mechanism of action of this drug?,"[""Prostaglandin analogue"", ""Alpha2-adrenoceptor agonist"", ""Carbonic anhydrase inhibitor"", ""Muscarinic receptor agonist"", ""Beta-blocker""]",Carbonic anhydrase inhibitor,2,"Dorzolamide - carbonic anhydrase inhibitor
+
+The correct answer is
+
+Carbonic anhydrase inhibitor
+
+. Dorzolamide is a carbonic anhydrase inhibitor which works by decreasing the production of aqueous humour in the eye, thereby reducing intraocular pressure. This makes it useful in the management of conditions such as glaucoma where there is raised intraocular pressure.
+
+Prostaglandin analogue
+
+is incorrect. Prostaglandin analogues like latanoprost increase uveoscleral outflow, which reduces intraocular pressure. They do not act by inhibiting carbonic anhydrase.
+
+The option
+
+Alpha2-adrenoceptor agonist
+
+is also incorrect. Drugs such as brimonidine are alpha2-adrenoceptor agonists that reduce the production of aqueous humour and increase its outflow, thus lowering intraocular pressure. However, they do not work by inhibiting carbonic anhydrase.
+
+Muscarinic receptor agonist
+
+is another incorrect choice. Muscarinic receptor agonists like pilocarpine work by constricting the ciliary muscle which opens up the trabecular meshwork and increases the outflow of aqueous humour from the eye, thereby reducing intraocular pressure. They do not inhibit carbonic anhydrase.
+
+Finally,
+
+Beta-blocker
+
+is also incorrect. Beta-blockers such as timolol decrease aqueous humour production but their mechanism does not involve carbonic anhydrase inhibition."
+5,Which one of the following features is not characteristic of optic neuritis?,"[""Eye pain worse on movement"", ""Relative afferent pupillary defect"", ""Poor discrimination of colours, 'red desaturation'"", ""Sudden onset of visual loss"", ""Central scotoma""]",Sudden onset of visual loss,3,
+6,"A 24-year-old Chinese woman presents to the GP clinic with a three-month history of intermittent headaches, occasional blurring of vision, and nausea. She has a body mass index (BMI) of 21 kg/m².
+
+Physical examination reveals diminished deep tendon reflexes in the lower limbs. Her eye movements are normal; however, her left pupil is smaller than her right, with the right measuring 4mm and the left 2.5mm. The right pupil does not react to light but reacts slowly to accommodation. On fundoscopy, she has a normal optic disc.
+
+What is the most likely diagnosis?","[""Argyll-Robertson pupil on the right side"", ""Holmes-Adie pupil on the right side"", ""Left-sided oculomotor nerve palsy due to posterior communicating artery aneurysm"", ""Physiological anisocoria"", ""Right-sided oculomotor nerve palsy due to idiopathic intracranial hypertension (IIH)""]",Holmes-Adie pupil on the right side,1,"Holmes ADIe = DIlated pupil, females, absent leg reflexes
+
+Holmes-Adie pupil on the right side
+
+is the correct answer. The Holmes-Adie pupil predominantly affects females and typically presents as a unilateral dilated pupil (in 80% of cases) that responds poorly to light but may react slowly upon accommodation. It is commonly associated with diminished deep tendon reflexes. Though infrequent, patients may also experience additional symptoms such as headaches, intermittent blurring of vision, nausea, facial pain, and mood swings.
+
+Argyll-Robertson pupil on the right side
+
+is incorrect because the Argyll-Robertson pupil features pupils that react poorly to light while accommodating well, which is frequently linked with tertiary syphilis. This condition generally manifests commonly in both sides with small pupils, contrasting with the presentation of a single smaller pupil reacting slowly to accommodation as described. Additionally, there is no typical link between Argyll-Robertson pupils and reduced deep tendon reflexes, making this option less likely to be the correct diagnosis.
+
+Left-sided oculomotor nerve palsy due to posterior communicating artery aneurysm
+
+is incorrect since a classic oculomotor nerve palsy results in a fixed, dilated pupil (mydriasis), potentially accompanied by ptosis and impaired eye movements. The clinical description given of a dilated pupil with poor light reaction and absent leg reflexes does not align with oculomotor nerve palsy. Moreover, an aneurysm affecting the posterior communicating artery would typically precipitate an acute onset of severe headache alongside oculomotor nerve palsy rather than chronic intermittent headaches as depicted in this scenario.
+
+Physiological anisocoria
+
+refers to a benign variation where there is a slight difference in size between both pupils without any other symptoms or neurological findings. It generally does not involve significant differences in the pupils' reactions to light or accommodation. Considering the patient's symptoms of headaches and reduced deep tendon reflexes along with poor pupillary responses, these clinical features suggest a pathological cause rather than physiological variation.
+
+Right-sided oculomotor nerve palsy due to IIH
+
+is incorrect because right-sided oculomotor nerve palsy would typically manifest with pupillary dilation and possibly ptosis or eye movement abnormalities on the affected side. While oculomotor nerve palsy can occur in conjunction with IIH, IIH itself tends to present with early morning headaches that worsen upon straining, blurred vision due to bilateral papilloedema leading to decreased peripheral vision and enlarging blind spots. However, IIH characteristically causes bilateral papilloedema which is not noted in this case. Risk factors for IIH include obesity, being female of childbearing age, and use of oral contraceptives; nonetheless, this patient has a normal BMI and unremarkable optic disc examination findings."
+7,"A 53-year-old male who presents to the emergency department with a painful red eye. He has vomited once since the pain started. He reports seeing haloes around lights.
+
+His immediate management includes latanoprost and pilocarpine, and he requires an urgent ophthalmology referral.
+
+What is the mode of the action of pilocarpine?","[""Muscarinic receptor agonist"", ""Muscarinic receptor antagonist"", ""Nicotinic receptor agonist"", ""Nicotinic receptor antagonist"", ""Adrenergic receptor agonist""]",Muscarinic receptor agonist,0,"Pilocarpine is a muscarinic receptor agonist
+
+Pilocarpine is a muscarinic receptor agonist - it increases uveoscleral outflow by constricting the pupil.
+
+Examples of muscarinic receptor antagonists include atropine and hyoscine (scopolamine) - these are not used in the management of glaucoma.
+
+Nicotinic receptor agonists include nicotine and acetylcholine, therefore this answer is incorrect.
+
+Nicotinic receptor antagonists include succinylcholine, atracurium, vecuronium and bupropion.
+
+Adrenergic receptor agonists include norepinephrine and epinephrine."
+8,"A 70-year-old man is investigated for blurred vision. Fundoscopy reveals drusen, retinal epithelial and macular neovascularisation. A diagnosis of age related macular degeneration is suspected. What is the most appropriate next investigation?","[""Vitreous fluid sampling"", ""MRI orbits"", ""Ocular tonometry"", ""Fluorescein angiography"", ""Kinetic perimetry""]",Fluorescein angiography,3,
+9,A 35-year-old man presents with visual problems. He has had very poor vision in the dark for a long time but is now worried as he is developing 'tunnel vision'. He states his grandfather had a similar problem and was registered blind in his 50's. What is the most likely diagnosis?,"[""Leber's congenital amaurosis"", ""Vitelliform macular dystrophy"", ""Central serous retinopathy"", ""Primary open angle glaucoma"", ""Retinitis pigmentosa""]",Retinitis pigmentosa,4,"Retinitis pigmentosa - night blindness + tunnel vision
+
+The most likely diagnosis, in this case, is
+
+retinitis pigmentosa
+
+. Retinitis pigmentosa is a group of inherited retinal disorders characterized by progressive degeneration of the retina, leading to night blindness and peripheral vision loss. The patient's symptoms of poor night vision and developing 'tunnel vision', as well as a family history of visual problems leading to blindness, are classic features of retinitis pigmentosa.
+
+Leber's congenital amaurosis
+
+is an incorrect answer because it presents as severe visual impairment or blindness at birth or within the first few months of life. This condition does not match the patient's age and presentation.
+
+Vitelliform macular dystrophy
+
+is also an incorrect option. This disorder typically affects central vision due to the accumulation of yellow deposits under the macula, causing distortion or loss of central vision. However, it does not cause night blindness or tunnel vision as described by the patient.
+
+Central serous retinopathy
+
+is another incorrect choice. It usually presents with sudden onset blurred central vision, often affecting only one eye. This condition may resolve spontaneously but can recur in some individuals. It does not cause night blindness or tunnel vision and has no known familial association.
+
+Finally,
+
+primary open-angle glaucoma
+
+is incorrect as well. Although it can cause tunnel vision due to gradual loss of peripheral vision, primary open-angle glaucoma typically does not cause night blindness. Additionally, this condition usually affects people over 40 years old and has a more insidious onset compared to the patient's presentation."
+10,A 64-year-old woman with type 2 diabetes mellitus presents as she has started to bump into things since the morning. Over the previous two days she had noticed some 'floating spots in her eyes'. Examination reveals she has no vision in her right eye. The red reflex on the right side is difficult to elicit and you are unable to visualise the retina on the right side during fundoscopy. Examination of the left fundus reveals changes consistent with pre-proliferative diabetic retinopathy. What is the most likely diagnosis?,"[""Occlusion of central retinal vein"", ""Vitreous haemorrhage"", ""Proliferative retinopathy"", ""Cataract"", ""Retinal detachment""]",Vitreous haemorrhage,1,
+11,"An 80-year-old man presented to his general practitioner with sudden, painless loss of vision in his right eye 2 hours ago. He is an insulin-dependant type 2 diabetic, with a history of hypertension and dyslipidaemia. On further questioning, he reports brief flashing of lights before a dense shadow that started peripherally and progressed centrally.
+
+What is the most likely diagnosis?","[""Central retinal artery occlusion"", ""Central retinal vein occlusion"", ""Pre-proliferative retinopathy"", ""Retinal detachment"", ""Vitreous haemorrhage""]",Retinal detachment,3,"Retinal detachment is a cause of sudden painless loss of vision. It is characterised by a dense shadow starting peripherally and progressing centrally
+
+Retinal detachment is a disorder of the eye in which the retina peels away from its underlying layer of support tissue causing flashes of light, increased floaters and a dense shadow that starts in the peripheral vision and slowly progresses towards the central vision.
+
+Central retinal artery occlusion is the blockage of blood to the retina of one eye. It usually causes a sudden loss of eyesight in one eye usually from an embolus. It rarely gives floaters, flashing lights or dense shadows seen in this case.
+
+Central retinal vein occlusion will often be described as the blurry or distorted vision in one eye that began suddenly, these symptoms are not seen here.
+
+Vitreous haemorrhage results in the sudden appearance of spots or floaters in your vision to cause a sudden blurring of vision but does not cause flashing lights seen in retinal detachment.
+
+Pre-proliferative retinopathy causes the sudden appearance of floaters in your vision with distortion of object shapes and visual loss as a result."
+12,"An 80-year-old male presents to the Neurology clinic with double vision and unsteadiness whilst walking. He has a past medical history of hypertension, hypercholesterolaemia and type 2 diabetes.
+
+On examination, you notice a right partial ptosis and miosis. The patient also has notable right facial loss of pain and temperature sensation with left sided truncal sensory loss contralateral to the face.
+
+In the clinic, apraclonidine eye drops are added to the affected eye, which causes a dilatation, whilst in the opposite eye, a pupil constriction occurs. After the eye drops have been eliminated from the body, 1% hydroxyamphetamine eye drops are then instilled. One hour after instillation, both pupils dilate.
+
+What neurone order is likely affected in the sympathetic pathway?","[""First order"", ""Second order"", ""Third order"", ""Fourth order"", ""Fifth order""]",First order,0,
+13,"A 60-year-old man presents to his GP with a progressive dry, itchy right eye and associated blurring of his vision. The patient and his family have also noticed he has difficulty fully closing his eyelid. The patient is known to have hypertension and type 2 diabetes but has no previous hospital admission or eye issues in the past.
+
+On examination, the patient has evidence of miosis, partial ptosis, anhidrosis of the face and enophthalmos.
+
+What is the most likely cause of this patient's presentation?","[""Carotid artery dissection"", ""Cavernous sinus thrombosis"", ""Cerebral vascular event"", ""Pancoast tumour"", ""Syringomyelia""]",Pancoast tumour,3,"Horner's syndrome - anhydrosis determines site of lesion:
+
+This patient has presented with a collection of signs and symptoms in keeping with Horner's syndrome. Horner's symptoms arise from a lesion to the sympathetic nerve trunk and result in miosis, partial ptosis, enophthalmos and varying degrees of anhidrosis on the same side as the patient's lesion. Lesions can occur anywhere along the sympathetic nerve trunk and the site of these lesions can be determined by the presence and location of anhidrosis. Pre-ganglionic lesions result in anhidrosis of the face only. They are due to causes such as
+
+Pancoast tumours
+
+, cervical rib and thyroid issues (e.g. thyroid carcinoma, thyroidectomy and goiter).
+
+Carotid artery dissection
+
+results in a post-ganglionic lesion. In Horner's syndrome secondary to post-ganglionic lesion patients normally present without anhidrosis.
+
+Cavernous sinus thrombosis
+
+also results in a post-ganglionic lesion and like carotid artery dissections, anhidrosis is absent and sweating is unaffected in these patients.
+
+Cerebral vascular events
+
+(i.e stroke) result in central lesions. In Horner's syndrome due to central lesions patients generally present with anhidrosis of the face, arm and trunks.
+
+In
+
+syringomyelia
+
+a cysts or cavity forms within the spinal cord resulting in a central lesion. As with strokes these patients present with Horner's syndrome and anhidrosis of the face, arm and trunk on the affected side."
+14,A 65-year-old man with a 16 year history of type 2 diabetes mellitus presents complaining of poor eye sight and blurred vision. Visual acuity measured using a Snellen chart is reduced to 6/12 in the right eye and 6/18 in the left eye. Fundoscopy reveals a number of yellow deposits in the left eye consistent with drusen formation. Similar changes but to a lesser extent are seen in the right eye. What is the most likely diagnosis?,"[""Wet age-related macular degeneration"", ""Pre-proliferative diabetic retinopathy"", ""Chronic open angle glaucoma"", ""Proliferative diabetic retinopathy"", ""Dry age-related macular degeneration""]",Dry age-related macular degeneration,4,"D
+
+The most likely diagnosis in this case is
+
+dry age-related macular degeneration
+
+. The patient's symptoms of reduced visual acuity and blurred vision, along with the presence of drusen on fundoscopy, are characteristic features of dry age-related macular degeneration (AMD). Drusen are yellow deposits that accumulate under the retina and can lead to gradual loss of central vision. Dry AMD is more common than wet AMD and tends to progress more slowly.
+
+Wet age-related macular degeneration
+
+is less likely in this case because it typically presents with more rapid onset of symptoms and a greater degree of visual impairment. Wet AMD is characterized by the growth of abnormal blood vessels under the retina, which can leak fluid or blood, causing sudden and severe vision loss. Fundoscopy would usually reveal haemorrhages or exudates associated with these abnormal vessels.
+
+Pre-proliferative diabetic retinopathy
+
+could potentially cause visual disturbances; however, the presence of drusen makes this diagnosis less likely. Pre-proliferative retinopathy is characterized by microaneurysms, intraretinal haemorrhages, cotton wool spots, venous beading or looping, but not drusen formation.
+
+Chronic open angle glaucoma
+
+is an unlikely diagnosis based on the clinical findings described. While it can cause visual disturbances and reduced visual acuity, glaucoma typically affects peripheral vision first before progressing to involve central vision. Additionally, fundoscopy would typically reveal optic disc cupping rather than drusen formation.
+
+Finally,
+
+proliferative diabetic retinopathy
+
+also seems unlikely in this case due to the absence of its characteristic features on fundoscopy. Proliferative diabetic retinopathy involves neovascularization - the growth of new blood vessels on the retina or optic disc - which can lead to vitreous haemorrhage, retinal detachment, and severe vision loss. The presence of drusen in this case is more indicative of AMD rather than diabetic retinopathy."
+15,"A 24-year-old man who has a family history of retinitis pigmentosa is reviewed in the ophthalmology clinic. He reports worsening vision over the past few months. During fundoscopy, which of the following findings with most support a diagnosis of retinitis pigmentosa?","[""Pigmented scrambled egg appearance concentrated around the macula"", ""Central irregular pigmentation with bull's eye maculopathy"", ""Black bone spicule-shaped pigmentation in the peripheral retina"", ""Drusen with haemorrhagic atrophic changes concentrated at the periphery of the retina"", ""Pigmented choroidal neovascularisation throughout the retina""]",Black bone spicule-shaped pigmentation in the peripheral retina,2,
+16,"A 76-year-old man attends the diabetic eye clinic. He has proliferative retinopathy without vitreous haemorrhage and is being consented to the first-line procedure.
+
+What should he be told occurs in up to 50% of patients who have this procedure?","[""A reduction in visual fields"", ""Brown pigmentation of the iris"", ""Corneal scarring"", ""Increased intraocular pressure"", ""Vitreous detachment""]",A reduction in visual fields,0,"Following panretinal laser photocoagulation up to 50% of patients have a noticeable reduction in their visual field
+
+Panretinal laser photocoagulation is the first-line procedure for proliferative retinopathy. Due to the retinal scarring caused by this procedure, there is a 50% chance of a
+
+reduction in visual fields
+
+. This procedure is often used in combination with intravitreal VEGF.
+
+Brown pigmentation of the iris
+
+is incorrect. This is a side effect of prostaglandin analogues, given for open-angle glaucoma.
+
+Corneal scarring
+
+is incorrect. This is a complication of keratitis.
+
+There is a high chance of rising intraocular pressure
+
+is incorrect. This is a common complication of laser peripheral iridotomy, the definitive management for acute angle-closure glaucoma.
+
+Vitreous detachment
+
+is incorrect. This is a condition associated with near-sightedness and ageing."
+17,A 67-year-old woman presents for review. She has recently been diagnosed with dry age-related macular degeneration. Which one of the following is the strongest risk factor for developing this condition?,"[""Hypertension"", ""Poor diet"", ""Smoking"", ""Diabetes mellitus"", ""Alcohol excess""]",Smoking,2,"Macular degeneration - smoking is risk factor
+
+Having a balanced diet, with plenty of fresh fruits and vegetables may also slow the progression of macular degeneration. There is still ongoing research looking at the role of supplementary antioxidants"
+18,Which one of the following is least associated with the development of optic atrophy?,"[""Tobacco"", ""Methanol"", ""Vitamin B12 deficiency"", ""Lead"", ""Zinc deficiency""]",Zinc deficiency,4,
+19,"A 68-year-old man attends the ophthalmology outpatient clinic with gradual loss of peripheral vision in both eyes. Examination reveals raised intraocular pressure and optic disc cupping. He is started on timolol eye drops.
+
+Which of the following best describes how this medication lowers intraocular pressure in primary open-angle glaucoma?","[""Decreases aqueous humour production"", ""Increases uveoscleral outflow"", ""Enhances trabecular meshwork drainage"", ""Induces miosis to improve outflow"", ""Reduces episcleral venous pressure""]",Decreases aqueous humour production,0,"Beta blockers such as timolol work in primary open-angle glaucoma by reducing aqueous production
+
+Decreases aqueous humour production
+
+: Timolol is a non-selective beta-blocker that acts by inhibiting beta-adrenergic receptors in the ciliary body, thereby reducing the production of aqueous humour. This leads to a reduction in intraocular pressure, which is key in managing primary open-angle glaucoma and preventing further optic nerve damage. This mechanism is well established and forms the basis for its use as an adjunctive treatment when first-line therapies are insufficient or not tolerated.
+
+Increases uveoscleral outflow
+
+: This is the principal mechanism of prostaglandin analogues such as latanoprost, not beta-blockers like timolol. Prostaglandin analogues enhance alternative pathways for aqueous drainage but do not significantly affect its production.
+
+Enhances trabecular meshwork drainage
+
+: While improving trabecular meshwork function would lower intraocular pressure, this effect is more associated with interventions like laser trabeculoplasty or miotic agents (e.g., pilocarpine). Timolol does not act via this pathway.
+
+Induces miosis to improve outflow
+
+: Miotics such as pilocarpine work by causing pupillary constriction (miosis), which increases the angle between the iris and cornea to facilitate aqueous outflow through the trabecular meshwork. Timolol does not cause miosis nor act primarily on pupil size.
+
+Reduces episcleral venous pressure
+
+: Lowering episcleral venous pressure could theoretically reduce intraocular pressure but is not a recognised action of any standard anti-glaucoma medication, including timolol. The mainstay remains modulation of aqueous dynamics rather than venous pressures."
+20,A 71-year-old man presents with a burning sensation around his right eye. On examination an erythematous blistering rash can be seen in the right trigeminal distribution. What is the most likely diagnosis?,"[""Ramsay Hunt syndrome"", ""Cluster headache"", ""Fungal keratitis"", ""Herpes zoster ophthalmicus"", ""Trigeminal neuralgia""]",Herpes zoster ophthalmicus,3,
+21,"A 64-year-old woman presents with bilateral sore eyelids. She also complains of her eyes being dry all the time. On examination her eyelid margins are erythematous at the margins but are not swollen. Of the given options, what is the most appropriate initial management?","[""Topical chloramphenicol + mechanical removal of lid debris"", ""Hot compresses + topical steroids"", ""Topical chloramphenicol + topical steroids"", ""Hot compresses + mechanical removal of lid debris"", ""Topical chloramphenicol + hot compresses""]",Hot compresses + mechanical removal of lid debris,3,"1st line of treatment for blepharitis is hot compresses
+
+The correct answer is
+
+Hot compresses + mechanical removal of lid debris
+
+. The patient's symptoms and signs are suggestive of blepharitis, a common chronic bilateral inflammatory condition of the eyelid margins. Initial management should involve a combination of eyelid hygiene measures such as warm compresses to loosen crusts, mechanical removal of lid debris with cotton-tipped applicators or clean washcloth, and lid massage to express meibomian secretions. This approach can help control symptoms and prevent complications.
+
+Topical chloramphenicol + mechanical removal of lid debris
+
+is not the most appropriate initial management. While it includes the important step of removing lid debris, topical antibiotics like chloramphenicol are typically reserved for cases where there is an associated bacterial infection (such as staphylococcal anterior blepharitis) or in severe cases that do not respond to conservative management.
+
+Hot compresses + topical steroids
+
+is also incorrect. Although hot compresses are beneficial in managing blepharitis, topical steroids are generally not recommended for long-term use due to potential side effects such as glaucoma and cataract formation. They may be used short-term in severe cases under specialist supervision.
+
+Topical chloramphenicol + topical steroids
+
+would be inappropriate as first-line treatment for this patient's presentation. As mentioned earlier, both these medications have specific indications and potential side effects that make them unsuitable for the initial management of uncomplicated blepharitis.
+
+Finally,
+
+Topical chloramphenicol + hot compresses
+
+doesn't include the crucial step of mechanically removing lid debris which contributes significantly to symptom relief in blepharitis. Additionally, as stated above, using topical antibiotics like chloramphenicol should be reserved for more severe or refractory cases."
+22,"A 34-year-old woman presents complaining of headaches. Examination of her pupils using a light shone alternately in each eye reveals that when the light is shone in the right eye both pupils constrict but when the light source immediately moves to the left eye both eyes appear to dilate.
+
+What is the most likely diagnosis?","[""Right optic neuritis"", ""Left sided Horner's syndrome"", ""Craniopharyngioma"", ""Left optic neuritis"", ""Right Holmes-Adie pupil""]",Left optic neuritis,3,
+23,A 71-year-old man who has recently been diagnosed with macular degeneration asks for advice regarding antioxidant dietary supplements. Which one of the following may contraindicate the prescription of such supplements?,"[""Current smoker"", ""Pernicious anaemia"", ""Treated hypertension"", ""History of depression"", ""Previous episodes of tendonitis""]",Current smoker,0,
+24,"A 66-year-old male is referred to ophthalmology by his general practitioner with a complaint of gradual deterioration of peripheral vision bilaterally. His past medical history includes hypertension and a left knee replacement. He is on regular amlodipine. He does not smoke or drink and is retired and lives alone.
+
+On examination, there is clinical evidence of a mild reduction in the peripheral vision bilaterally. Formal tonometry demonstrates a raised intraocular pressure of 25 mmHg.
+
+Based on the likely diagnosis, the treating ophthalmologist prescribes a medication that works by reducing aqueous production without increasing uveoscleral outflow.
+
+Which class of medication has this mechanism of action?","[""Brimonidine"", ""Ciclosporin"", ""Latanoprost"", ""Pilocarpine"", ""Timolol""]",Timolol,4,"Beta blockers such as timolol work in primary open-angle glaucoma by reducing aqueous production
+
+Timolol is correct. The diagnosis is open-angle glaucoma is evidenced by the impaired peripheral vision and raised intraocular pressure. Beta-blockers such as timolol work in primary open-angle glaucoma by reducing aqueous production.
+
+Brimonidine is incorrect. The diagnosis is open-angle glaucoma as evidenced by impaired peripheral vision and raised intraocular pressure. Sympathomimetics (e.g. brimonidine, an alpha2-adrenoceptor agonist) work in open-angle glaucoma by both increasing uveoscleral outflow and reducing aqueous production rather than reducing aqueous production, alone.
+
+Ciclosporin is incorrect. This is not a treatment for open-angle glaucoma but is used topically in severe keratitis in dry eye disease that has not responded to treatment with tear substitutes. It works by inhibiting the production and release of cytokines.
+
+Latanoprost is incorrect. Prostaglandin analogues are the first-line treatment of open-angle glaucoma but they work by increasing uveoscleral outflow.
+
+Pilocarpine is incorrect. Miotics (e.g. pilocarpine, a muscarinic receptor agonist) work in open-angle glaucoma by increasing uveoscleral outflow."
+25,A 71-year-old man presents with severe pain around his right eye and vomiting. On examination the right eye is red and decreased visual acuity is noted. Which one of the following options is the most appropriate initial treatment?,"[""Topical pilocarpine + oral prednisolone"", ""Topical pilocarpine + topical steroids"", ""Topical steroids"", ""Topical pilocarpine + intravenous acetazolamide"", ""Topical steroids + intravenous acetazolamide""]",Topical pilocarpine + intravenous acetazolamide,3,"Alongside eye drops, IV acetazolamide is used in the initial emergency medical management of acute angle-closure glaucoma
+
+The correct answer is
+
+Topical pilocarpine + intravenous acetazolamide
+
+. This patient's presentation of severe ocular pain, redness, nausea, vomiting and decreased visual acuity is suggestive of acute angle-closure glaucoma (AACG). The initial management of AACG in the UK involves reducing intraocular pressure rapidly. Topical pilocarpine constricts the pupil and widens the anterior chamber angle, allowing for improved aqueous humour drainage. Intravenous acetazolamide, a carbonic anhydrase inhibitor, reduces the production of aqueous humour in the ciliary body thereby decreasing intraocular pressure.
+
+Topical pilocarpine + oral prednisolone
+
+is not the best option as oral prednisolone does not have a role in the initial treatment of AACG. While it can reduce inflammation associated with other eye conditions such as uveitis or optic neuritis, it does not contribute to lowering intraocular pressure.
+
+Topical pilocarpine + topical steroids
+
+is also incorrect for similar reasons. Topical steroids may be used to treat inflammatory conditions of the eye but do not significantly lower intraocular pressure and are therefore not useful in this setting.
+
+Topical steroids
+
+, again, would not be beneficial in this case as they do not contribute to lowering intraocular pressure which is crucial in managing AACG.
+
+Finally,
+
+Topical steroids + intravenous acetazolamide
+
+would partially help by reducing intraocular pressure through IV acetazolamide; however, without topical pilocarpine to constrict the pupil and widen the anterior chamber angle, this combination would be less effective than using both pilocarpine and acetazolamide together."
+26,"A 65-year-old man presents with a sudden loss of vision in his right eye upon waking up this morning. He has no pain in his eye. Past medical history is notable for diabetes mellitus and hypertension. Fundoscopic examination of the left eye reveals no abnormalities. Fundoscopic examination of the right eye reveals multiple retinal haemorrhages.
+
+What is the most likely diagnosis?","[""Amaurosis fugax"", ""Central retinal artery occlusion"", ""Central retinal vein occlusion"", ""Hypertensive retinopathy"", ""Optic neuritis""]",Central retinal vein occlusion,2,"Central retinal vein occlusion - sudden painless loss of vision, severe retinal haemorrhages on fundoscopy
+
+This patient's
+
+sudden painless loss of vision
+
+, coupled with the fundoscopy finding of
+
+retinal haemorrhages
+
+in the affected eye, is consistent with
+
+central retinal vein occlusion.
+
+Amaurosis fugax causes temporary vision loss that resolves in a few minutes. It is caused by atheroembolism from the carotid arteries. This patient has persistent vision loss.
+
+Central retinal artery occlusion presents with acute painless vision loss. However, the patient would have a loss of relative afferent pupillary defect, and the fundoscopy would reveal a cherry-red macula and a white/pale retina.
+
+Hypertensive retinopathy may cause flame-shaped haemorrhages and cotton wool spots on the retina, but it does not cause a sudden vision loss.
+
+Optic neuritis presents with a sudden loss of vision associated with severe pain and an afferent pupillary defect. This patient's painless loss of vision makes this diagnosis unlikely."
+27,Which one of the following causes of Horner's syndrome is due to a central lesion?,"[""Cavernous sinus thrombosis"", ""Internal carotid aneurysm"", ""Syringomyelia"", ""Pancoast's tumour"", ""Cervical rib""]",Syringomyelia,2,"Horner's syndrome - anhydrosis determines site of lesion:
+
+The correct answer is
+
+Syringomyelia
+
+. Horner's syndrome results from a disruption of the oculosympathetic pathway. The central causes include brainstem stroke, demyelinating diseases such as multiple sclerosis, and syringomyelia. Syringomyelia is a chronic condition characterised by the development of fluid-filled cavities or syrinxes within the spinal cord. It disrupts the descending sympathetic fibres that originate in the hypothalamus and travel down the brainstem and cervical spinal cord before exiting at T1-T2 level to form part of the oculosympathetic pathway.
+
+Cavernous sinus thrombosis
+
+is an incorrect option because it is not a central cause of Horner's syndrome. It can cause Horner's syndrome due to involvement of sympathetic fibres running along the wall of cavernous sinus but this would be considered a pre-ganglionic lesion rather than a central one.
+
+Internal carotid aneurysm
+
+is another incorrect option. While it can cause Horner's syndrome due to its proximity to the oculosympathetic pathway, this would also be considered pre-ganglionic rather than central.
+
+The fourth option,
+
+Pancoast's tumour
+
+, represents another peripheral cause of Horner's syndrome. Pancoast's tumours are apical lung tumours that can invade local structures including the brachial plexus and sympathetic chain, causing symptoms such as shoulder pain, arm weakness and Horner's syndrome (ptosis, miosis, anhidrosis).
+
+Finally,
+
+cervical rib
+
+is also incorrect because while it can cause compression on brachial plexus or subclavian artery leading to thoracic outlet syndrome, it does not typically affect the oculosympathetic pathway to result in Horner's Syndrome unless there is extensive involvement or anomalous anatomy."
+28,A 54-year-old woman presents with a persistent watery left eye for the past 4 days. On examination there is erythema and swelling of the inner canthus of the left eye. What is the most likely diagnosis?,"[""Blepharitis"", ""Acute angle closure glaucoma"", ""Meibomian cyst"", ""Dacryocystitis"", ""Pinguecula""]",Dacryocystitis,3,
+29,"A 75-year-old man presents with sudden onset of flashes and floaters in his right eye. A systematic enquiry was otherwise unremarkable. He has a past medical history of hypertension. His drug history includes amlodipine. On examination, there is no evidence of visual loss.
+
+Ophthalmoscopy is performed:
+
+
+Ophthalmoscopy	Features are suggestive of Weiss ring
+
+What is the most likely diagnosis?","[""Acute angle-closure glaucoma"", ""Chorioretinitis"", ""Posterior vitreous detachment"", ""Retinal detachment"", ""Vitreous haemorrhage""]",Posterior vitreous detachment,2,"Flashes + floaters are most commonly caused by a posterior vitreous detachment
+
+Posterior vitreous detachment
+
+is correct.  The sudden onset of flashers and floaters is most commonly due to a posterior vitreous detachment. It would, of course, be important to consider more serious causes such as retinal detachment. The ophthalmoscopy features of a Weiss ring (peripapillary glial tissue that remains attached to the posterior vitreous cortex following posterior vitreous detachment) adds weight to the diagnosis.
+
+Acute angle-closure glaucoma
+
+is incorrect. This condition presents with sudden onset of severe unilateral eye pain or a headache associated with blurred vision, rainbow-coloured halos around bright lights, nausea, and vomiting. The absence of any of these features, and the presence of flashes and floaters make acute glaucoma an unlikely diagnosis.
+
+Chorioretinitis
+
+is incorrect. This condition usually presents with the sudden onset of flashes, floaters, blurred vision, loss of vision, and scotomas. Chorioretinitis is most commonly infective in origin with toxoplasmosis and cytomegalovirus being the commonest organisms predominantly in immune-deficient patients. The relative rarity of this condition and the absence of immunodeficiency makes this a less likely diagnosis.
+
+Retinal detachment
+
+is incorrect. This condition presents with sudden onset visual loss, flashers, floaters, and a 'dark curtain'. Flashers and floaters may precede visual loss early in the disease process.  The relative rarity of this condition, the absence of visual loss, and the ophthalmoscopy findings make this a less likely diagnosis.
+
+Vitreous haemorrhage
+
+is incorrect. Although vitreous haemorrhage can also present with flashers and floaters, the ophthalmoscopy findings make this an unlikely diagnosis. A vitreous haemorrhage should be directly observed in the majority of cases."
+30,A 65-year-old man with a history of primary open-angle glaucoma presents with sudden painless loss of vision in his right eye. On examination of the right eye the optic disc is swollen with multiple flame-shaped and blot haemorrhages. What is the most likely diagnosis?,"[""Diabetic retinopathy"", ""Vitreous haemorrhage"", ""Ischaemic optic neuropathy"", ""Occlusion of central retinal vein"", ""Occlusion of central retinal artery""]",Occlusion of central retinal vein,3,"Central retinal vein occlusion - sudden painless loss of vision, severe retinal haemorrhages on fundoscopy
+
+The most likely diagnosis in this case is
+
+occlusion of the central retinal vein
+
+. The patient's presentation of sudden painless vision loss, optic disc swelling, and multiple flame-shaped and blot haemorrhages are all characteristic features of central retinal vein occlusion (CRVO). CRVO occurs when there is a blockage in the central retinal vein, leading to impaired venous drainage from the retina. This results in increased pressure within the blood vessels, causing them to leak blood and fluid into the surrounding tissues.
+
+Diabetic retinopathy
+
+is an incorrect option because it typically presents with microaneurysms, dot and blot haemorrhages, hard exudates, and cotton wool spots rather than optic disc swelling. Diabetic retinopathy is a common complication of diabetes mellitus and affects the small blood vessels of the retina. While it may cause vision loss over time, it does not usually present as sudden painless vision loss.
+
+Vitreous haemorrhage
+
+is also an incorrect option. While vitreous haemorrhage can cause sudden painless vision loss, it would not be associated with optic disc swelling or multiple flame-shaped and blot haemorrhages on examination. Vitreous haemorrhage occurs when blood leaks into the vitreous humour from damaged blood vessels in conditions such as diabetic retinopathy or retinal tears.
+
+The diagnosis of
+
+ischaemic optic neuropathy
+
+is less likely given the presence of multiple flame-shaped and blot haemorrhages. Ischaemic optic neuropathy typically presents with sudden painless vision loss along with pallid swelling of the optic disc due to impaired blood supply to the optic nerve head. However, it does not usually present with retinal haemorrhages.
+
+Finally,
+
+occlusion of central retinal artery
+
+is an incorrect option as well. Central retinal artery occlusion presents with sudden painless vision loss and a pale retina with a cherry-red spot at the fovea on examination. This condition occurs when blood flow to the retina is obstructed, leading to ischemia and subsequent infarction of the retina. It would not present with optic disc swelling or multiple flame-shaped and blot haemorrhages.
+
+In summary, the most likely diagnosis for this patient is occlusion of the central retinal vein due to his presentation of sudden painless vision loss, optic disc swelling, and multiple flame-shaped and blot haemorrhages."
+31,A 71-year-old with a history of type 2 diabetes mellitus and hypertension presents due to the sensation of light flashes in his right eye. These symptoms have been present for the past 2 days and seem to occur more at the peripheral part of vision. There is no redness or pain in the affected eye. Corrected visual acuity is measured as 6/9 in both eyes. What is the most likely diagnosis?,"[""Change in shape of eye secondary to variations in blood sugar"", ""Primary open angle glaucoma"", ""Vitreous detachment"", ""Normal phenomenon in diabetic retinopathy"", ""Normal phenomenon in healthy eyes""]",Vitreous detachment,2,"Flashes and floaters - vitreous/retinal detachment
+
+Flashes and floaters are symptoms of vitreous detachment. The patient is at risk of retinal detachment and should be referred urgently to an ophthalmologist"
+32,"A 40-year-old woman presents to the emergency department with a two-day history of worsening blurry vision and painful movements of the right eye. She also has reduced oral intake with persistent fever. She denies any headaches. The patient was last seen by her general practitioner a week ago for acute sinusitis.
+
+On examination, there is right eye proptosis, right eyelid oedema, erythema and tenderness. The best-corrected visual acuity is 6/12 in the right eye, 12/12 in the left eye. Colour vision is reduced in the right eye.
+
+Given the most likely diagnosis, what should be the next step in management?","[""Admit and administer IV antibiotics"", ""Admit and arrange for computed tomography (CT) brain"", ""Admit and arrange for urgent ophthalmology review"", ""Discharge with a course of oral antibiotics"", ""Discharge with ophthalmology follow up in 24 hours""]",Admit and administer IV antibiotics,0,"Patients with orbital cellulitis require admission to hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread
+
+The presence of right eye proptosis, painful eye movements, reduced visual acuity, and systemic symptoms strongly suggest orbital cellulitis. The patient recently had acute sinusitis, which is a common risk factor, as the bacterial infection spreads from the paranasal sinuses into the orbit. Patients require urgent admission and intravenous antibiotics as soon as possible to minimize the risk of complications such as cavernous sinus thrombosis.
+
+Although
+
+CT brain
+
+should also be performed to look for the presence of sinusitis, subperiosteal abscess, stranding of orbital fat, and intracranial involvement, it is not the most appropriate next step. There is a high clinical suspicion of orbital cellulitis in this case and antibiotics should not be delayed to wait for CT confirmation.
+
+Similarly, the patient should have an
+
+ophthalmology review
+
+, but it should not take precedence over antibiotics administration. Given the high clinical suspicion here, waiting for ophthalmology review would only delay antibiotic treatment, putting the patient at greater risk of fatal complications.
+
+Discharging the patient
+
+with oral antibiotics or ophthalmology follow up is dangerous and puts her at risk of fatal complications such as abscess and cavernous sinus thrombosis."
+33,Which one of the following is least recognised as a cause of tunnel vision?,"[""Papilloedema"", ""Choroidoretinitis"", ""Angioid retinal streaks"", ""Glaucoma"", ""Retinitis pigmentosa""]",Angioid retinal streaks,2,
+34,A 65-year-old man with a known history of Paget's disease is noted to have irregular dark red lines radiating from the optic nerve. What is the likely diagnosis?,"[""Retinitis pigmentosa"", ""Optic neuritis"", ""Angioid retinal streaks"", ""Choroidoretinitis"", ""Malignant hypertension""]",Angioid retinal streaks,2,
+35,An 84-year-old man presents with loss of vision in his left eye since the morning. He is otherwise asymptomatic and of note has had no associated eye pain or headaches. His past medical history includes ischaemic heart disease but he is otherwise well. On examination he has no vision in his left eye. The left pupil responds poorly to light but the consensual light reaction is normal. Fundoscopy reveals a red spot over a pale and opaque retina. What is the most likely diagnosis?,"[""Vitreous haemorrhage"", ""Retinal detachment"", ""Ischaemic optic neuropathy"", ""Central retinal vein occlusion"", ""Central retinal artery occlusion""]",Central retinal artery occlusion,4,
+36,"A 68-year-old woman with dry age-related macular degeneration is reviewed by her ophthalmologist with slowly progressive central visual distortion in both eyes. She has a 50-pack-year history of smoking, and continued to smoke 10 per day.
+
+What best explains the role of smoking in the pathogenesis of her condition?","[""Impaired retinal perfusion"", ""Increased lutein levels"", ""Increased oxidative stress"", ""Increased retinal vascular resistance"", ""Interference with macular photopigment regeneration""]",Increased oxidative stress,2,"Macular degeneration - smoking is risk factor
+
+Increased oxidative stress
+
+is the correct answer. The progressive bilateral central visual distortion and history of dry age-related macular degeneration (AMD) point towards a progression of her disease. Smoking is one of the most important risk factors in the development of AMD, and is mediated via direct oxidation. Tobacco smoke introduces free radicals that directly damage retinal pigment epithelium (RPE), which accelerates drusen formation and RPE dysfunction. Oxidative stress is responsible for many health consequences associated with smoking, including cardiovascular disease, increased risk of neoplasm and smoking-related lung damage.
+
+Impaired retinal perfusion
+
+is incorrect. Although smoking can affect vascular health, impaired retinal perfusion is more typical of vascular occlusions or diabetic retinopathy. Perfusion is usually preserved in dry AMD until late stages. Additionally, the gradual bilateral central distortion points to degenerative rather than ischaemic pathology.
+
+Increased lutein levels
+
+is incorrect. Lutein is a protective macular pigment with antioxidant properties. Therefore, increased lutein will be protective against pathologies such as macular degeneration. Smoking reduces, not increases, lutein levels.
+
+Increased retinal vascular resistance
+
+is incorrect. This is more relevant to hypertensive or arteriolar retinal disease, and tends to result in asymmetrical, patchy changes to peripheral vision or retinal oedema. Therefore, this does not explain the slowly progressive central vision loss.
+
+Interference with macular photopigment regeneration
+
+is incorrect. This would be in keeping with vitamin A deficiency or inherited retinal dystrophies. Smoking is not a culprit in altering the visual cycle, but rather causes disruption of oxidative and inflammatory pathways."
+37,"A 55-year-old woman attends the clinic with worsening vision. She has a past medical history of poorly controlled diabetes mellitus. A slit lamp examination confirms proliferative diabetic retinopathy.
+
+You counsel the patient for panretinal laser photocoagulation.
+
+What complication is this patient most at risk of?","[""Endophthalmitis"", ""Macular oedema"", ""Myopia"", ""Reduction of the visual field"", ""Vitreous haemorrhage""]",Reduction of the visual field,3,"Following panretinal laser photocoagulation up to 50% of patients have a noticeable reduction in their visual field
+
+Reduction of the visual field
+
+is correct. This is a common complication following panretinal laser photocoagulation with up to 50% of patients having a noticeable reduction in their visual field.
+
+Endophthalmitis
+
+is incorrect. Endophthalmitis is not a recognised complication of panretinal laser photocoagulation.
+
+Macular oedema
+
+is incorrect. Whilst this can occur, it is a rare complication.
+
+Myopia
+
+is incorrect. Myopia is not a recognised complication of panretinal laser photocoagulation.
+
+Vitreous haemorrhage
+
+is incorrect. Whilst this can occur, it is a rare complication."
+38,"A 33-year-old man presents to the emergency department with a one-day history of redness and pain in his left eye, accompanied by blurred vision and photophobia. He has no significant past medical history and reports no known drug allergies.
+
+Ophthalmic examination reveals a small, fixed oval pupil with a ciliary flush in the affected eye.
+
+What is the most likely diagnosis?","[""Acute angle closure glaucoma"", ""Anterior ischaemic optic neuropathy"", ""Anterior uveitis"", ""Endophthalmitis"", ""Scleritis""]",Anterior uveitis,2,"Red eye - glaucoma or uveitis?
+
+Anterior uveitis
+
+typically presents with acute onset redness, pain and blurred vision. It is associated with ankylosing spondylitis, amongst other autoimmune diseases. The examination findings are typical of anterior uveitis, with a small, fixed pupil and ciliary flush. A hypopyon may also be present. Topical corticosteroids are the first line of treatment, and cycloplegic agents are often given concomitantly.
+
+Acute angle closure glaucoma
+
+also causes acute onset of red eye and pain. However, on examination, the findings would differ because the pupil is fixed and semi-dilated with a hazy cornea. Patients typically complain of reduced visual acuity and seeing haloes.
+
+Anterior ischaemic optic neuropathy
+
+results from occlusion of the posterior ciliary artery, often occurring in patients with temporal arteritis. It usually presents in patients over the age of 50 and is unlikely in a patient who is only 33. Visual loss may be present, and associated symptoms such as jaw claudication, scalp tenderness, or symptoms of polymyalgia rheumatica.
+
+Endophthalmitis
+
+is inflammation of the inner eye that usually occurs as a result of eye injury or as a complication from eye surgery. Red eye, pain and blurred vision may all also be present; however, the pupil changes in this case are seen in anterior uveitis, not endophthalmitis.
+
+Scleritis
+
+is associated with rheumatoid arthritis rather than ankylosing spondylitis. Features also include pain and redness. Epiphora and photophobia may also be present. The pupils are not small and fixed in scleritis, as with anterior uveitis."
+39,"A 43-year-old man attends his GP with pain and facial swelling after an upper respiratory tract infection. On examination, erythema and swelling surround the right eye and there is pain on eye movements. Visual acuity is 6/6 on the left and 6/24 on the right.
+
+What is the most appropriate course of action?","[""Admit to hospital for IV antibiotics"", ""Prescribe high-dose oral steroids and check thyroid function"", ""Prescribe high-dose oral steroids and refer urgently to Rheumatology"", ""Supportive management and nasal decongestants"", ""Urgent referral to maxillofacial surgeons for debridement""]",Admit to hospital for IV antibiotics,0,"Patients with orbital cellulitis require admission to hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread
+
+The correct answer is
+
+admit to hospital for IV antibiotics
+
+. The symptoms described are suggestive of orbital cellulitis. This usually results from the spread of organisms from the upper respiratory tract. Admission for IV antibiotics is recommended as under-treatment can lead to cavernous sinus thrombosis.
+
+Prescribe high-dose oral steroids and check thyroid function
+
+is incorrect. Thyroid eye disease could cause orbital pain and painful eye movements and should be in the differential here. However, the recent upper respiratory tract symptoms and facial pain/swelling are more suggestive of orbital cellulitis, which often results from the spread of infection from the upper respiratory tract.
+
+Prescribe high-dose oral steroids and refer to Rheumatology
+
+is incorrect. This would be the appropriate choice for suspected giant cell arteritis. This condition is extremely unusual under the age of 65. It can cause headache and visual loss but this is usually in the form of monocular blindness rather than reduced acuity.
+
+Supportive management and nasal decongestants
+
+is incorrect. This would be appropriate for conditions such as sinusitis that may lead to orbital cellulitis. However, the facial pain and swelling with painful eye movements suggest orbital cellulitis has now developed. At this stage, supportive therapy would not be appropriate and IV antibiotics are required.
+
+Urgent referral to maxillofacial surgeons for debridement
+
+is incorrect. Orbital cellulitis is generally managed with IV antibiotics rather than operative intervention. This may be required if there were suspicion of necrotising infection but there is nothing to suggest this is a concern here."
+40,Which one of the following statements regarding macular degeneration is true?,"[""Drusen are characteristic of wet macular degeneration"", ""Photodynamic therapy is useful in dry macular degeneration"", ""Asian ethnicity is a risk factor"", ""Male sex is a risk factor"", ""Wet macular degeneration carries the worst prognosis""]",Wet macular degeneration carries the worst prognosis,4,
+41,A 63-year-old man presents to his GP complaining of pain in his right eye. On examination the sclera is red and the pupil is dilated with a hazy cornea. What is the most likely diagnosis?,"[""Scleritis"", ""Conjunctivitis"", ""Acute angle closure glaucoma"", ""Anterior uveitis"", ""Subconjunctival haemorrhage""]",Acute angle closure glaucoma,2,"Red eye - glaucoma or uveitis?
+
+The correct answer is
+
+Acute angle closure glaucoma
+
+. This condition presents with a red eye, dilated pupil, and a hazy cornea due to increased intraocular pressure. The patient may also experience severe ocular pain, nausea and vomiting, blurred vision, and seeing halos around lights. It is an ophthalmic emergency that requires immediate treatment to prevent permanent vision loss.
+
+Scleritis
+
+is incorrect because it typically presents with severe ocular pain that can radiate to the forehead or jaw. The eye appears red, particularly in the area of the sclera. While this inflammation can cause some changes in vision, it does not typically cause a hazy cornea or a dilated pupil.
+
+Conjunctivitis
+
+is also incorrect as it usually presents with a red eye and discharge but not with pain, hazy cornea or dilated pupil. Conjunctivitis often affects both eyes whereas acute angle closure glaucoma generally starts in one eye.
+
+Anterior uveitis
+
+, or inflammation of the iris and ciliary body within the uvea of the eye, is another incorrect choice. While anterior uveitis can cause redness of the eye and pain, it typically causes photophobia rather than a hazy cornea. The pupil in anterior uveitis would be small (miotic) rather than dilated.
+
+Finally,
+
+Subconjunctival haemorrhage
+
+is incorrect as this condition presents with a bright red patch on the white part of the eye (sclera). It's often asymptomatic but may cause a sensation of fullness under the lid or mild irritation. It does not present with pain or visual changes such as hazy cornea or dilated pupils."
+42,"A 25-year-old woman presents to the emergency department with periorbital oedema, erythema, and drainage that is worsening in her left eye. Mild proptosis is seen on examination.
+
+A point of care ultrasound is performed to investigate her symptoms further. The modified ocular ultrasound of her left eye demonstrates prominence and oedema of the retro-orbital soft tissue with echogenic fat.
+
+What is the management for this patient given the underlying diagnosis?","[""Intravenous antimicrobial"", ""No antimicrobial"", ""Oral antimicrobial"", ""Topical antimicrobial"", ""Topical corticosteroids""]",Intravenous antimicrobial,0,"Patients with orbital cellulitis require admission to hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread
+
+Intravenous antimicrobial
+
+is required in hospitals for patients with orbital cellulitis due to the risk of cavernous sinus thrombosis and intracranial spread. All patients with a clinical diagnosis of orbital cellulitis MUST be admitted with an ophthalmic opinion sought as soon as possible.
+
+Oral antimicrobial
+
+is not sufficient in this situation. Orbital cellulitis is conventionally managed by intravenous antibiotic therapy and is a medical emergency that, if not treated urgently, may lead to blindness and even death.
+
+No antimicrobial
+
+is inappropriate in this situation given that orbital cellulitis is a medical emergency that, if not treated urgently, may lead to blindness and even death. It necessitates prompt treatment with intravenous antibiotics.
+
+Topical antimicrobial
+
+is not sufficient in this situation. Orbital cellulitis is conventionally managed by intravenous antibiotic therapy and is a medical emergency that, if not treated urgently, may lead to blindness and even death.
+
+Topical corticosteroids
+
+are unlikely to be that effective. The use of oral corticosteroids however can help in reducing inflammation with less residual proptosis and restrictions in extraocular movement during recovery. Intravenous antibiotic therapy remains first-line and must be initiated promptly in this medical emergency."
+43,"A 78-year-old woman presents to the emergency department after having a car accident. She describes that her vision has been deteriorating with some line distortion and loss of her central vision. Her vision was particularly bad this evening.
+
+On examination of her eyes, you see drusen and new vessel formation around the macula.
+
+Before discharge, you organise follow-up with the ophthalmologist as you think they may need to start monoclonal antibody treatment directed against vascular endothelial growth factor (VEGF).
+
+What monoclonal antibody has this mechanism of action?","[""Abciximab"", ""Adalimumab"", ""Bevacizumab"", ""Omalizumab"", ""Rituximab""]",Bevacizumab,2,"Bevacizumab is a monoclonal antibody directed against vascular endothelial growth factor (VEGF)
+
+Bevacizumab
+
+is the correct answer, it is a monoclonal antibody directed against vascular endothelial growth factor (VEGF). It can be used to limit the progression of wet age-related macular degeneration (ARMD) which is described in this case. It should be instituted within the first two months of diagnosis of wet ARMD.
+
+Abciximab
+
+is a monoclonal antibody directed against platelet IIb/IIIa receptors and hence prevents platelet aggregation. It can be used to prevent clots in unstable angina or post coronary artery stenting.
+
+Adalimumab
+
+is a monoclonal antibody that targets tumor necrosis factor (TNF) and is mainly used to treat inflammatory arthritis.
+
+Omalizumab
+
+is a monoclonal antibody that targets the IgE receptor, which decreases an IgE response. It can be used for severe allergic asthma.
+
+Rituximab
+
+is a monoclonal antibody that targets CD20 receptors on B cells causing the lysis of B lymphocytes. It can be used in the treatment of lymphoma."
+44,A 68-year-old man with a history of type 2 diabetes mellitus presents with worsening eye sight. Mydriatic drops are applied and fundoscopy reveals pre-proliferative diabetic retinopathy. A referral to ophthalmology is made. Later in the evening whilst driving home he develops pain in his left eye associated with decreased visual acuity. What is the most likely diagnosis?,"[""Keratitis secondary to mydriatic drops"", ""Proliferative diabetic retinopathy"", ""Acute angle closure glaucoma"", ""Central retinal artery occlusion"", ""Vitreous haemorrhage""]",Acute angle closure glaucoma,2,
+45,"A 32-year-old woman presents to her GP with ongoing headaches. The GP performs a cranial nerve examination; during this, he notes normal direct and consensual reflexes when shining light into the left eye. When shining light into the right eye, direct and consensual reflexes are present, although neither eye constricts as much. He then swings a pen torch from one eye to the other. When swung to the left eye, both pupils constrict. When swung from the left eye to the right eye, both pupils appear to dilate slightly, although not back to normal.
+
+Given this finding, where is the likely lesion?","[""Lateral geniculate nucleus"", ""Oculomotor nucleus"", ""Optic chiasm"", ""Optic nerve"", ""Optic radiation""]",Optic nerve,3,"Relative afferent pupillary defect indicates an optic nerve lesion or severe retinal disease
+
+The correct answer is the optic nerve.
+
+The patient has a relative afferent pupillary defect (RAPD). This is caused by a lesion in the optic nerve or retina. In the swinging light test, when light is shone in the unaffected eye, both pupils constrict. When the light is swung to the affected eye, less light is detected so both pupils appear to dilate.
+
+'Lateral geniculate nucleus' is incorrect. This is a relay centre in the thalamus for the visual pathway, where the optic tract connects. Lesions here are not associated with an RAPD.
+
+'Oculomotor nucleus' is also incorrect. The oculomotor nucleus is the midbrain origin of the oculomotor nerve. A lesion here would cause ophthalmoplegia, mydriasis and ptosis.
+
+'Optic chiasm' is incorrect. Lesions here usually result in bitemporal hemianopia and are not associated with RAPD.
+
+'Optic radiation' is also incorrect. These carry information from the lateral geniculate nucleus to the primary visual cortex. Lesions here lead to a quadrantanopia and are not associated with RAPD."
+46,Which one of the following is associated with heterochromia in congenital disease?,"[""Holmes-Adie pupil"", ""Third nerve palsy"", ""Sixth nerve palsy"", ""Argyll-Robertson pupil"", ""Horner's syndrome""]",Horner's syndrome,4,
+47,"A 41-year-old woman with a history of type 1 diabetes attends a routine eye screening appointment. She is found to have retinal neovascularisation, fibrous tissue anterior to the retinal disc.
+
+She is advised she will require treatment and counselled that following this treatment up to 50% of patients have a noticeable reduction in their visual field.
+
+What treatment will she be offered?","[""IV acetazolamide"", ""Intravitreal VEGF inhibitors"", ""Panretinal laser photocoagulation"", ""Topical cycloplegics"", ""Vitreoretinal surgery""]",Panretinal laser photocoagulation,2,"Following panretinal laser photocoagulation up to 50% of patients have a noticeable reduction in their visual field
+
+Panretinal laser photocoagulation
+
+is correct. The findings described are in keeping with proliferative retinopathy, which is more common in type 1 diabetics and 50% are blind within 5 years. Following treatment around 50% of patients develop a noticeable reduction in their visual fields due to the scarring of peripheral retinal tissue.
+
+IV acetazolamide
+
+is incorrect. This is a carbonic anhydrase inhibitor that is used for acute angle closure glaucoma and is not used for diabetic retinopathy. It results in an accumulation of carbonic acid, which reduces the secretion of aqueous humour, and reduced intraocular pressure.
+
+Intravitreal VEGF inhibitors
+
+is incorrect. These are often used in combination with pan-retinal laser photocoagulation, but they do not cause the same reduction in the visual field. They block VEGF which slows the growth of blood vessels within the eye.
+
+Topical cycloplegics
+
+is incorrect. These result in paralysis of the ciliary muscle of the eye and loss of lens accommodation, they are used for eye examinations and some ophthalmological procedures.
+
+Vitreoretinal surgery
+
+is incorrect. This may be used if there is severe or vitreous haemorrhage present."
+48,"An 83-year-old female presented to her GP with complete loss of vision in her right eye which occurred suddenly. The episode lasted for 10 minutes and she denies any pain in her eye. Her past medical history includes hypercholesterolaemia, diet controlled, and hypertension for which she takes amlodipine.
+
+Eye examination and fundoscopy are normal. Her blood pressure is 145/80 mmHg.
+
+What medication are you going to give first?","[""Aspirin 300mg"", ""Aspirin 75mg"", ""Simvastatin 20mg"", ""Apixaban 5mg BD"", ""Enoxaparin 40mg""]",Aspirin 300mg,0,"Monocular transient painless loss of vision (amaurosis fugax) should be  treated as a TIA
+
+Sudden painless loss of vision with a normal fundoscopy examination is an amaurosis fugax and thus treated as a transient ischaemic attack (TIA). NICE guidance states that 300mg of aspirin should be given immediately and admission if ABCD2 score >3 or crescendo TIA, otherwise an immediate TIA clinic referral is required.
+
+Option 2 is the correct medication but incorrect dose.
+
+Option 3 is likely to be added later but aspirin is the first initial plan.
+
+Apixaban is usually given for cardiovascular disease and enoxaparin 40mg is the dose given for deep vein thrombosis prophylaxis with normal renal function."
+49,"A 57-year-old presents to the clinic three weeks after undergoing panretinal photocoagulation (PRP) for proliferative diabetic retinopathy. He reports mild fluctuating visional changes throughout the day and that his peripheral vision seems less clear than before the procedure.
+
+He has no pain, redness, or discharge, and his visual acuity is normal on examination. The PRP-treated areas appear to be healing without signs of infection or acute retinal detachment. Intraocular pressure is within normal limits.
+
+What is the most likely complication associated with this patient’s symptoms?","[""Epiretinal membrane formation"", ""Foveal ischaemia"", ""Neovascularisation"", ""Progression of diabetic macular oedema"", ""Reduced rod cell function""]",Reduced rod cell function,4,"A decrease in night vision is a potential complication of panretinal photocoagulation
+
+The patient’s fluctuating visual changes, following PRP, can indicate reduced night vision, a complication caused by
+
+reduced rod cell function
+
+. Rod cells, concentrated in the peripheral retina, are crucial for adapting to low-light conditions. PRP, designed to treat proliferative diabetic retinopathy by ablating hypoxic peripheral retinal tissue, inadvertently damages rod cells, impairing the retina's ability to adjust to varying light levels. His normal visual acuity during examination is likely due to the well-lit environment, which relies on cone cell function rather than rods. The peripheral vision changes further support PRP-induced damage.
+
+Epiretinal membranes
+
+(ERMs) typically cause central visual blurring or distortion, rather than fluctuating vision or reduced night vision. ERMs form at the macula, far from the peripheral retinal tissue targeted by PRP. This patient's fluctuating vision and normal visual acuity in a well-lit clinic argue against ERM-related findings, making it an unlikely diagnosis.
+
+Foveal ischaemia
+
+manifests with central scotomas or blurred central vision and does not cause fluctuating vision or reduced night vision. PRP targets the peripheral retina and spares the macula, making foveal ischaemia improbable in this case. The patient’s stable visual acuity during examination further excludes this as a cause, as the fovea remains functional.
+
+Neovascularisation
+
+typically presents with symptoms of recurrent proliferative diabetic retinopathy, such as vitreous haemorrhage or increased intraocular pressure. PRP aims to prevent this complication, and the patient’s examination findings of normal intraocular pressure and stable visual acuity suggest neovascularisation is unlikely to explain the symptoms.
+
+Diabetic macular oedema
+
+primarily causes central vision distortion, not fluctuating vision or reduced night vision. The absence of central vision issues or macular involvement, in this case, makes macular oedema progression unlikely. Additionally, the patient’s normal visual acuity in the clinic supports the exclusion of this diagnosis, as the macula is not significantly affected."
+50,"A 12-year-old boy is taken to see his GP by his mother. She has noticed small, yellow, papular lesions and that his skin has become 'lax'. Given these findings, the GP refers onwards to a paediatric specialist, who ultimately makes a diagnosis of pseudoxanthoma elasticum.
+
+Given this underlying condition, which of the following ophthalmological findings is most likely?","[""Angioid retinal streaks"", ""Drusen"", ""Open-angle glaucoma"", ""Posterior vitreous detachment"", ""Retinal tear""]",Angioid retinal streaks,0,"Angioid retinal streaks are a feature of pseudoxanthoma elasticum
+
+The correct answer is angioid retinal streaks. Pseudoxanthoma elasticum is a rare disorder which causes the effects described above on the skin. It also very commonly affects the eyes - mineralisation of the elastic fibres in the Bruch membrane ultimately leads to angioid streaks that radiate out from the optic nerve. The streaks themselves do not generally lead to loss/distortion of vision, but may lead to retinal haemorrhages.
+
+Drusen is incorrect. This substance builds up in age-related macular degeneration, causing progressive visual loss. There are some studies which associate drusen with pseudoxanthoma elasticum, although not to the same extent as angioid streaks.
+
+Open-angle glaucoma is incorrect. There are some links between pseudoxanthoma elasticum and acute closed-angle glaucoma, but not open-angle.
+
+Posterior vitreous detachment is incredibly common with progressing age, but there is no known link between this and pseudoxanthoma elasticum.
+
+A retinal tear may occur due to posterior vitreous detachment, or severe myopia; it is not linked to pseudoxanthoma elasticum."
+51,"A 52-year-old male is admitted to the acute medical admissions unit with a 1-day history of a left-sided headache, retro-orbital pain, and dull left-sided facial pain. He has a history of hypertension and migraine and takes ramipril 2.5mg.
+
+On examination, he has a partial ptosis and enophthalmos of the left eye. Pupil examination demonstrates anisocoria with miosis of the left eye. His visual acuity is 6/6 bilaterally and the remainder of neurological examination is normal with normal sweating bilaterally.
+
+What is the single most likely cause of these symptoms?","[""Carotid artery dissection"", ""Cervical rib"", ""Pancoast's tumour"", ""Stroke"", ""Syringomyelia""]",Carotid artery dissection,0,"Horner's syndrome - anhydrosis determines site of lesion:
+
+This case represents a partial horner's syndrome. Horner's syndrome classically presents with ipsilateral ptosis, miosis, and anhidrosis. The degree of anhidrosis helps determine the location of the lesion along the sympathetic pathway.
+
+Carotid artery dissection typically presents with ipsilateral pain and in this case, it was the cause of a partial horner's syndrome with ipsilateral ptosis and miosis, in the absence of anhidrosis. Although horners syndrome is an uncommon presentation of carotid artery dissection it is documented in case reports and important to recognise to avoid further neurological consequences such as an ischaemic stroke.
+
+A cervical rib or Pancoast tumour cause pre-ganglionic interruption of the sympathetic chain.  In addition to ptosis and miosis, they would cause anhidrosis of just the face.
+
+A stroke or syringomyelia are central lesions. If they caused a horner's syndrome then in addition to ptosis and miosis, there would be anhidrosis of the head, arm ad trunk."
+52,"A 56-year-old female with longstanding rheumatoid arthritis presented to her general practitioner with redness of her right eye. She reports feeling slight discomfort and being irritating with occasional watering of the eye. She denied any dryness or pain as such. Assessment of her pupils was normal and light did not cause her any discomfort.
+
+What is the most likely diagnosis?","[""Corneal ulceration"", ""Episcleritis"", ""Keratitis"", ""Keratoconjunctivitis sicca"", ""Scleritis""]",Episcleritis,1,"Scleritis is painful, episcleritis is not painful
+
+Episcleritis is one of the many ocular manifestations of rheumatoid arthritis. In episcleritis, the episclera becomes inflamed and red. It often causes irritation, soreness or a gritty sensation but importantly no pain.
+
+Keratitis is marked by moderate to intense pain and usually involves impaired eyesight, photophobia, redness of the eye with a gritty sensation.
+
+Scleritis is a disorder in which the sclera becomes severely inflamed and red. It can be very painful. Given the absence of pain, in this case, scleritis is unlikely.
+
+Keratoconjunctivitis sicca is dryness of the conjunctiva and cornea. Too few tears may be produced, or tears may evaporate too quickly. There is no evidence to suggest this occurring here.
+
+Corneal ulceration is a painful sore that develops on the outer surface of your eye. They're more common in contact lens wearers."
+53,"A 45-year-old female known to have rheumatoid arthritis presents to the hospital's emergency department with a red, swollen painful right eye.
+
+The patient is currently on hydroxychloroquine, with good drug compliance. She has had 3 arthritic flares in the past year, all responding to the IV steroids.
+
+She frequently takes artificial teardrops, with good effect, as she often experiences foreign body sensation. However, her current ocular symptoms are not in keeping with previous episodes and are not responding to artificial teardrops.
+
+Which of the following is the most likely diagnosis?","[""Allergic conjunctivitis"", ""Episcleritis"", ""Keratitis"", ""Retinopathy"", ""Scleritis""]",Scleritis,4,"Scleritis is painful, episcleritis is not painful
+
+Approximately 25% of patients with rheumatoid arthritis have ocular manifestations of the disease. These range from episcleritis (inflammation of the outermost covering of the eye) to the drug (chloroquine) induced retinopathy. Scleritis is characterised by a red, swollen, and painful eye as described in this patient.
+
+Episcleritis is commonly mistaken for scleritis however, episcleritis is painless.
+
+As there is no clear history of stimuli exposure (i.e. pollen, dust) or increased lacrimation allergic conjunctivitis is least likely in this case.
+
+Keratitis is usually associated with eye discharge.
+
+Retinopathy can occur due to hydroxychloroquine use in rheumatoid arthritis therefore, annual eye exams are advised for rheumatoid patients. Retinopathy results in a painless reduction in visual acuity which is not in keeping with this patient's presentation."
+54,"A 23-year-old man presents to the emergency department with pain in his right eye. He has a past medical history of recurrent sinusitis and ankylosing spondylitis.
+
+On examination, there is erythema and swelling around the right eye. There is pain on testing of eye movements. The pupils are normal.
+
+What is the appropriate management?","[""IV acetazolamide"", ""IV antibiotics"", ""Oral antibiotics"", ""Oral steroids"", ""Topical antibiotics""]",IV antibiotics,1,"Patients with orbital cellulitis require admission to hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread
+
+IV antibiotics
+
+is the correct answer. The combination of ocular pain and pain on eye movements associated with redness and swelling around the eye suggests orbital cellulitis. This is a medical emergency requiring admission to the hospital for IV antibiotics due to the risk of cavernous sinus thrombosis and intracranial spread. Sinusitis is a risk factor for the development of this condition.
+
+IV acetazolamide
+
+is incorrect. This is a treatment for acute glaucoma. Acute glaucoma may cause ocular pain. However, the eye itself will be red rather than the surrounding structures and therefore this is not a likely diagnosis.
+
+Oral antibiotics
+
+is incorrect. This may be suitable for a very mild case of periorbital cellulitis but would not be sufficient to treat orbital cellulitis. Patients with periorbital cellulitis do not have pain on eye movements.
+
+Oral steroids
+
+is incorrect. This is an option for treating uveitis, which is associated with ankylosing spondylitis. However, like glaucoma, this is a case of acute red eye. The eye itself is red rather than the surrounding structures and therefore this is not the correct diagnosis.
+
+Topical antibiotics
+
+is incorrect. This might be useful in the treatment of bacterial conjunctivitis but not orbital cellulitis."
+55,"A 66-year-old man presents to his GP complaining of 'funny symptoms' in his eyes. He describes having flashes of light in his eyes for several days. In addition to this, he has been noticing darker 'bits' floating around in his vision. He denies any pain. He is short-sighted and wears glasses but otherwise has no significant past medical history.
+
+On examination, the visual acuity and fields are normal.
+
+What is the most likely cause of his symptoms?","[""Migraine"", ""Optic neuritis"", ""Posterior vitreous detachment"", ""Retinal detachment"", ""Retinal tear""]",Posterior vitreous detachment,2,"Flashes + floaters are most commonly caused by a posterior vitreous detachment
+
+The most common cause of flashers and floaters is posterior vitreous detachment (PVD), occurring in over 75% of people over the age of 65. This is the separation of the vitreous membrane from the retina, which occurs over time with ageing. It does not cause any pain, nor loss of vision. Highly myopic patients are also at increased risk. Referral to an ophthalmologist should take place within 24 hours to rule out retinal tears or detachment.
+
+Migraine is incorrect - there is no headache described here and so this is unlikely. For some people, migraine auras can mimic flashes and floaters - they may experience strange ocular sensations - but the most likely cause here is posterior vitreous detachment.
+
+Optic neuritis is also unlikely - there is no pain, nor any history of any previous disease to suggest this. In this patient, posterior vitreous detachment remains by far the most likely cause of his flashers and floaters.
+
+Retinal detachment may be a complication of PVD, but again not as common as the PVD itself - this would present with sudden visual loss (whereas here, the fields and acuity are normal), often as a 'veil' covering the visual field. This requires urgent intervention from an ophthalmologist.
+
+A retinal tear may also occur, without progressing to detachment. This would present with similar symptoms as the detachment but, on detailed examination, a tear would be visualised rather than complete detachment. This, again, requires intervention from an ophthalmologist."
+56,A 62-year-old man presents with sudden visual loss in his right eye. He is otherwise asymptomatic. Which one of the following conditions is least likely to be responsible?,"[""Ischaemic optic neuropathy"", ""Occlusion of the central retinal vein"", ""Occlusion of the central retinal artery"", ""Optic neuritis"", ""Vitreous haemorrhage""]",Optic neuritis,3,
+57,A 74-year-old man presents to ophthalmology clinic after seeing his optician. They have noticed raised intra-ocular pressure and decreased peripheral vision. His past medical history includes asthma and type 2 diabetes mellitus. What is the most appropriate treatment given the likely diagnosis?,"[""Latanoprost"", ""Pilocarpine"", ""Timolol"", ""Dorzolamide"", ""Brimonidine""]",Latanoprost,0,
+58,"A 40-year-old man presents with bilateral dry, gritty eyes. A diagnosis of blepharitis is considered. Which one of the following is least likely to be associated with blepharitis?","[""Meibomian gland dysfunction"", ""Seborrhoeic dermatitis"", ""Staphylococcal infection"", ""Acne rosacea"", ""Viral upper respiratory tract infection""]",Viral upper respiratory tract infection,4,
+59,"A 52-year-old woman is referred to the ophthalmology clinic by her optician. The optician detected raised intraocular pressure (IOP) in both eyes. The patient is currently asymptomatic but describes a family history of glaucoma. She has no other past medical history of note.
+
+On examination, the IOP is currently 23 mmHg bilaterally. The ophthalmologist prescribes latanoprost eye drops to be used daily in both eyes.
+
+What is the mechanism of action of this drug?","[""Increases choroidal blood flow"", ""Increases intravascular osmolarity"", ""Increases uveoscleral outflow"", ""Reduces aqueous production"", ""Reduces aqueous production and increases uveoscleral outflow""]",Increases uveoscleral outflow,2,"Latanoprost is a prostaglandin analog used in glaucoma. It works by increasing uveoscleral outflow
+
+Latanoprost is a prostaglandin analogue and is commonly used first-line in patients with open-angle glaucoma. It acts by
+
+increasing uveoscleral outflow
+
+. It is typically administered once daily. Side effects include brown pigmentation of the iris and increased eyelash length.
+
+Carbonic anhydrase inhibitors are an alternative to be given topically, but may also be given orally. Oral acetazolamide appears to
+
+increase choroidal blood flow
+
+in some studies. Latanoprost does not cause this effect.
+
+Oral hyperosmotic drugs such as mannitol may be given in emergencies relating to acute IOP increases. These act by
+
+increasing intravascular osmolarity
+
+and drawing fluid out of the vitreous humour of the eye. Latanoprost does not act by this mechanism.
+
+Beta-blockers, such as timolol, are often used in the treatment of glaucoma. They act by
+
+reducing aqueous production
+
+. Latanoprost does not work via this mechanism.
+
+Sympathomimetics, such as brimonidine, act by
+
+both increasing uveoscleral outflow and reducing aqueous production
+
+. Latanoprost only acts via the former mechanism, not the latter."
+60,Which one of the following statements regarding the Holmes-Adie pupil is incorrect?,"[""May be associated with absent ankle/knee reflexes"", ""Bilateral in 80% of cases"", ""It is a benign condition"", ""Slowly reactive to accommodation but very poorly (if at all) to light"", ""Causes a dilated pupil""]",Bilateral in 80% of cases,1,
+61,"A 78-year-old gentleman presents to the emergency department complaining of a severe headache. His only medical condition is hypertension, for which he take Ramipril 10 mg and Amlodipine 10 mg. As part of the full work up fundoscopy is performed, with the following results bilaterally: Scattered cotton wool spots, tortuous vessels throughout, and AV nipping.
+
+What stage of hypertensive retinopathy according the Keith-Wagener classification does this patient have?","[""Stage 1"", ""Stage 2"", ""Stage 3"", ""Stage 4"", ""No retinopathy present""]",Stage 3,2,"Fundoscopy reveals end organ damage in hypertension
+
+This describes stage 3 hypertensive retinopathy, as there are features of stages 1 to 3 described.
+
+Hypertensive and diabetic retinopathy are both common finals questions."
+62,"A 22-year-old woman presented with a history of a sudden loss of vision of her left eye for 4 days in duration. It was associated with pain in eye movement.
+
+Ocular examination revealed visual acuity of the left eye was only counting fingers with a positive afferent pupillary defect. Visual acuity of the right eye was 6/6. Anterior segments of both eyes showed normal ocular findings. The contrast sensitivity and colour vision test were severely impaired. The visual field showed unilateral central scotoma.
+
+What is the underlying diagnosis?","[""Corneal ulceration"", ""Episcleritis"", ""Glaucoma"", ""Macular degeneration"", ""Optic neuritis""]",Optic neuritis,4,"A central scotoma is a feature of optic neuritis
+
+Optic neuritis
+
+is an inflammation of the eye's optic nerve. The two most common symptoms of optic neuritis are vision loss and eye pain. Central scotoma is recognised as a characteristic visual field defect pattern of optic neuritis. It may be associated with demyelinating diseases or infectious or inflammatory processes. The signs include decreased visual acuity, decreased colour vision (red desaturation) and relative afferent pupillary defect (RAPD).
+
+Episcleritis
+
+is a common condition affecting the episclera, the layer of tissue between the surface membrane (conjunctiva) and the firm white part of the eye (the sclera). In episcleritis, the episclera becomes inflamed and red. It often causes irritation, soreness or a gritty sensation. However, it typically does not cause visual loss which makes this incorrect.
+
+Glaucoma
+
+is an eye condition that is often associated with elevated intraocular pressure, in which damage to the optic nerve can lead to loss of vision and even blindness. The visual field loss (scotoma) in glaucoma has a distinctive pattern that differs from visual loss due to other causes and includes para-central scotoma, nasal step, and arcuate defect.
+
+Corneal ulceration
+
+is an erosion or open sore on the surface of the cornea which causes sudden painful visual loss.  A corneal ulcer usually results from an eye infection, but severe dry eye or other eye disorders can cause it. The absence of tearing and redness make this diagnosis unlikely.
+
+Macular degeneration
+
+produces a scotoma which most often appears in the central visual field resulting in its being called a central scotoma. In dry macular degeneration, the light-sensing cells (called rods and cones) in the centre of the retina degenerate along with their supporting cells. This diagnosis is unlikely as it is typically painless and also age-related."
+63,"A 54-year-old man with type 2 diabetes mellitus is found on annual review to have new vessel formation at the optic disc. Visual acuity in both eyes is not affected (6/9). Blood pressure is155/84 mmHg.
+
+
+HbA1c	68 mmol/mol (8.4%)
+
+What is the most important intervention in this patient?","[""Follow-up ophthalmoscopy in 3 months"", ""Add aspirin"", ""Blood pressure control"", ""Tight glycaemic control"", ""Laser therapy""]",Laser therapy,4,
+64,A 71-year-old female with dry age-related macular degeneration is reviewed. Unfortunately her eyesight has deteriorated over the past six months. She has never smoked and is taking antioxidant supplements. What is the most appropriate next step?,"[""Retinal transplant"", ""Intravitreal ranibizumab"", ""Explain no other medical therapies currently available"", ""Photodynamic therapy"", ""Photocoagulation""]",Explain no other medical therapies currently available,2,
+65,"A 34-year-old female presents with fatigue and frequent headaches. On examination of her eyes, you notice an abnormality during the swinging light test. As the light is moved from the left to the right eye both pupils appear to dilate. The pupillary response to accommodation is normal bilaterally. Fundoscopy is also normal bilaterally. Her past medical history includes type one diabetes and hypertension. What is the most likely explanation for this patients' signs?","[""Raised intracranial pressure"", ""Diabetic eye disease"", ""Holmes-Adie's pupil on the right"", ""Marcus-Gunn Pupil (relative afferent pupillary defect) on the right"", ""Argyll Robertson pupil on the right""]",Marcus-Gunn Pupil (relative afferent pupillary defect) on the right,3,
+66,Which one of the following is associated with the Holmes-Adie pupil?,"[""Decreased ankle reflexes"", ""Pupillary constriction"", ""Ptosis in 10-20% of cases"", ""An increased of developing multiple sclerosis"", ""Neurosyphilis""]",Decreased ankle reflexes,0,"Holmes ADIe = DIlated pupil, females, absent leg reflexes
+
+The correct answer is
+
+Decreased ankle reflexes
+
+. Holmes-Adie syndrome (also known as Adie's tonic pupil or Holmes-Adie pupil) is a neurological disorder characterised by a unilateral (occasionally bilateral) dilated pupil that reacts slowly to light but shows a more definite response to accommodation. This condition is typically associated with decreased or absent deep tendon reflexes, particularly the ankle reflexes. This association is known as Holmes-Adie syndrome and occurs due to damage to the ciliary ganglion and dorsal root ganglia. The pathophysiology involves denervation of the pupillary sphincter and subsequent aberrant reinnervation, leading to the characteristic tonic pupil. The decreased ankle reflexes occur in approximately 80-90% of patients with Holmes-Adie pupil and represent a key diagnostic feature of the syndrome.
+
+Pupillary constriction
+
+is incorrect because Holmes-Adie pupil is characterised by pupillary dilation (mydriasis), not constriction. The affected pupil is typically larger than the unaffected pupil and demonstrates a delayed and tonic (slow) constriction to light. After prolonged illumination, the pupil may eventually constrict, but this response is significantly delayed compared to a normal pupil. The pupil also shows denervation hypersensitivity to dilute cholinergic agents like pilocarpine (0.1%), which can be used as a diagnostic test.
+
+Ptosis in 10-20% of cases
+
+is incorrect because ptosis is not a typical feature of Holmes-Adie syndrome. Ptosis (drooping of the upper eyelid) is more commonly associated with other neurological conditions affecting the oculomotor nerve (cranial nerve III) or sympathetic innervation to the eye, such as Horner's syndrome. In Holmes-Adie syndrome, the pupillary abnormalities occur without ptosis because the levator palpebrae superioris muscle, which raises the eyelid, is not affected by the pathological process that damages the ciliary ganglion.
+
+An increased risk of developing multiple sclerosis
+
+is incorrect because Holmes-Adie syndrome is not associated with an increased risk of developing multiple sclerosis (MS). Holmes-Adie syndrome is considered a benign condition that is often idiopathic or may follow a viral illness. It does not predispose individuals to demyelinating disorders like MS. The conditions are distinct entities with different pathophysiological mechanisms. While MS can cause pupillary abnormalities, these typically present as part of a constellation of neurological symptoms and signs, unlike the isolated findings in Holmes-Adie syndrome.
+
+Neurosyphilis
+
+is incorrect because Holmes-Adie syndrome is not associated with neurosyphilis. While neurosyphilis can cause pupillary abnormalities, most notably the Argyll Robertson pupil (which constricts with accommodation but not to light), this is distinct from the Holmes-Adie pupil. The Argyll Robertson pupil is typically bilateral, small, and irregular, whereas the Holmes-Adie pupil is often unilateral, dilated, and regular. Furthermore, neurosyphilis is caused by infection with the spirochete *Treponema pallidum*, whereas Holmes-Adie syndrome is thought to result from a viral or autoimmune process affecting the ciliary ganglion and dorsal root ganglia."
+67,An 80-year-old woman presents with 'funny spots' affecting her vision. Over the past week she has noticed a number of flashes and floaters in the visual field of the right eye. What is the most likely diagnosis?,"[""Retinal detachment"", ""Posterior vitreous detachment"", ""Optic neuritis"", ""Depression"", ""Vitreous haemorrhage""]",Posterior vitreous detachment,1,
+68,"A 32-year-old man presents with night sweats and a cervical lymph node. Aspirate of the node reveals many acid-fast bacilli and PCR confirms the presence of Mycobacterium tuberculosis. He is started on quadruple therapy.
+
+As part of the counselling, you warn him of potential side effects including optic neuritis.
+
+What symptom should he be warned about?","[""Diplopia"", ""Pain relieved by eye movements"", ""Peripheral visual loss"", ""Red desaturation"", ""Sudden monocular blindness""]",Red desaturation,3,"Colour vision ('red desaturation') is affected in optic neuritis
+
+The correct answer is
+
+red desaturation
+
+. The anti-tuberculous agent ethambutol can be associated with optic neuritis. This often presents first with deficits in colour vision, particularly red desaturation. In one study, abnormal colour vision was recognised in 94% of patients with optic neuritis.
+
+Diplopia
+
+is incorrect. This would be an unusual feature with optic neuritis. It generally occurs with problems of the nerves controlling the extra-ocular muscles, namely III, IV and VI.
+
+Pain relieved by eye movements
+
+is incorrect. The opposite is true with optic neuritis, with pain generally exacerbated by eye movements.
+
+Peripheral visual loss
+
+is incorrect. Visual loss in optic neuritis usually represents a central scotoma rather than a peripheral defect.
+
+Sudden monocular blindness
+
+is incorrect. Complete monocular blindness is unusual in optic neuritis. Where it does occur, the onset is generally gradual rather than sudden."
+69,"A 24-year-old woman presents with visual disturbance. On examination, you swing the penlight from eye to eye quickly and note that the right pupil and left pupil dilate when light is shone into the right eye.
+
+Where is the most likely site of the lesion?","[""CN III"", ""CN IV"", ""Left retina or optic nerve"", ""Right retina or optic nerve"", ""Sympathetic nerve fibers""]",Right retina or optic nerve,3,"A relative afferent pupillary defect is when the affected and normal eye appears to dilate when light is shone on the affected eye
+
+Right retina or optic nerve
+
+is correct, During the 'swinging light test' the right and left pupil dilate when shining light into the right eye. This indicates a problem with the right-sided afferent pathway (e.g. right sided retina or optic nerve).
+
+CN III
+
+is incorrect, In compressive CN III palsy, the pupil becomes fixed and dilated due to paralysis of sphincter pupillae.
+
+CN IV
+
+is incorrect, This cranial nerve plays no role in pupil physiology.
+
+Left retina or optic nerve
+
+is incorrect,  A left-sided RAPD would be characterised by bilateral pupil dilation when shining light into the left eye.
+
+Sympathetic nerve fibres
+
+is incorrect, Horner syndrome is caused by damage to a certain pathway in the sympathetic nervous system. The sympathetic nervous system acts to dilate the pupils, and thus lesions of this pathway are characterised by pupil constriction."
+70,A 67-year-old man presents as he has developed a painful blistering rash around his right eye. On examination a vesicular rash covering the right trigeminal nerve dermatome is seen. Currently he has no eye symptoms or signs. Which one of the following is most likely to predict future eye involvement?,"[""Presence of the rash on the tip of his nose"", ""Smoking history"", ""Increasing age"", ""Previous courses of corticosteroids"", ""Presence of the rash in the ear canal""]",Presence of the rash on the tip of his nose,0,
+71,"A 49-year-old male patient presents with acute onset loss of vision in the right eye preceded by a 2-hour history of progressively enlarging dark spots in his vision. He has type-1 diabetes mellitus for over 15 years and has been poorly controlled.
+
+What is the most likely diagnosis","[""Ocular migraine"", ""Retinal detachment"", ""Vitreous haemorrhage"", ""Ischaemic optic neuropathy"", ""Retinal artery occlusion""]",Vitreous haemorrhage,2,"Vitreous haemorrhage is a cause of sudden painless loss of vision in the context of diabetic retinopathy
+
+Vitreous haemorrhage is a cause of sudden painless loss of vision in the context of diabetic retinopathy. It usually presents with dark spots (scotoma) in the vision initially. This man is likely to have diabetic retinopathy.
+
+Ocular migraine does not usually cause visual loss.
+
+Retinal detachment usually presents with dense shadow over vision progressing centrally.
+
+Even though this man has ischaemic risk factors, ischaemic optic neuropathy does not usually present with dark spots.
+
+Retinal artery occlusion does not usually present with dark spots."
+72,"A 28-year-old woman presents to the eye clinic with sudden, painless loss of vision in her right eye. On examination, visual acuity is reduced on the right. The swinging light test shows that both pupils appear to dilate when a torch is moved from the left to the right eye. Which of the following best explains this clinical finding?","[""Right optic nerve lesion"", ""Right oculomotor nerve palsy"", ""Left optic tract lesion"", ""Right homonymous hemianopia"", ""Bilateral cataracts""]",Right optic nerve lesion,0,"Relative afferent pupillary defect indicates an optic nerve lesion or severe retinal disease
+
+Right optic nerve lesion
+
+is correct. A relative afferent pupillary defect (RAPD), demonstrated by both pupils appearing to dilate when light is shone in the affected (right) eye during the swinging light test, indicates an abnormality in the afferent limb of the pupillary light reflex pathway. This occurs anterior to the optic chiasm—most commonly due to optic nerve pathology or severe retinal disease in that eye (e.g., optic neuritis). The unaffected left eye's normal response confirms that efferent pathways are intact, making a right-sided pre-chiasmal problem most likely.
+
+Right oculomotor nerve palsy
+
+would affect the efferent limb of the pupillary reflex on that side, potentially causing a fixed and dilated pupil unresponsive to direct or consensual stimulation. However, it would not cause a relative afferent defect; rather, only one pupil would be abnormal regardless of which eye was stimulated.
+
+Left optic tract lesion
+
+affects fibres after they have crossed at the chiasm and typically results in contralateral homonymous hemianopia rather than an RAPD. Although subtle RAPDs may occur with large post-chiasmal lesions due to asymmetric input from crossed fibres, it does not fit this scenario with unilateral vision loss and classic swinging light test findings.
+
+Right homonymous hemianopia
+
+describes a visual field defect rather than a specific anatomical lesion; it usually results from damage posterior to the chiasm (optic tract, radiation or occipital cortex) and does not produce an RAPD because both eyes receive equal afferent input.
+
+Bilateral cataracts
+
+, while affecting vision bilaterally by reducing clarity of incoming light, do not selectively impair afferent input enough in one eye alone to produce an RAPD unless extremely asymmetric and dense—which is rare. Cataracts generally do not alter pupillary responses as described here."
+73,During routine follow-up at renal clinic a man is noted to have corpuscular pigmentation of the left retina. Which one of the following conditions is associated with retinitis pigmentosa?,"[""Autosomal dominant polycystic kidney disease"", ""Tuberous sclerosis"", ""Von Hippel-Lindau syndrome"", ""Alport's syndrome"", ""Medullary sponge kidney""]",Alport's syndrome,3,
+74,"A 56-year-old woman presents with a sudden loss of vision in the left eye. She denies any pain associated with the loss of vision. The patient describes the loss of vision initially starting as a dense shadow that started at the edges of her vision and progressed towards the centre. She has no significant past medical history except for myopia, for which she wears corrective glasses.
+
+What is the most likely diagnosis?","[""Central retinal artery occlusion"", ""Central retinal vein occlusion"", ""Retinal detachment"", ""Vitreous detachment"", ""Vitreous haemorrhage""]",Retinal detachment,2,"Retinal detachment is a cause of sudden painless loss of vision. It is characterised by a dense shadow starting peripherally and progressing centrally
+
+The history is most suggestive of retinal detachment. The description of a dense shadow progressing towards the centre is classic of this condition. The history of myopia is also a big risk factor for retinal detachment. This condition requires urgent corrective surgery.
+
+Central retinal artery occlusion is less likely to be the diagnosis here. This is due to thromboembolism or arteritis; no risk factors are given for either. Again, the description of a shadow progressing towards the centre of the vision, along with myopia, are more suspicious of retinal detachment.
+
+Central retinal vein occlusion is another possibility; its incidence increases with age and it is more common than arterial occlusion. Again, however, no risk factors are mentioned and, given the history, retinal detachment is more likely.
+
+Vitreous detachment is not a cause of loss of vision. It may precede retinal detachment - but its symptoms (if any) are typically floaters/flashes of light which do not usually interfere with daily activities.
+
+Vitreous haemorrhage is a reasonable differential diagnosis. Again, though, there are no risk factors (diabetes, anticoagulants) mentioned. Whilst it would also cause sudden vision loss, the description of centrally progressive loss and myopia is much more suggestive of retinal detachment."
+75,Which one of the following best describes the action of latanoprost in the management of primary open-angle glaucoma?,"[""Carbonic anhydrase inhibitor"", ""Reduces aqueous production + increases outflow"", ""Opens up drainage pores"", ""Increases uveoscleral outflow"", ""Reduces aqueous production""]",Increases uveoscleral outflow,3,"Latanoprost is a prostaglandin analog used in glaucoma. It works by increasing uveoscleral outflow
+
+The correct answer is
+
+Increases uveoscleral outflow
+
+. Latanoprost is a prostaglandin analogue that works by increasing the uveoscleral outflow of aqueous humour, thereby lowering intraocular pressure. This mechanism of action is particularly effective in the management of primary open-angle glaucoma, where there is an imbalance between aqueous production and drainage.
+
+Moving on to the incorrect answers, let's start with
+
+Carbonic anhydrase inhibitor
+
+. Carbonic anhydrase inhibitors such as acetazolamide and dorzolamide are indeed used in the management of glaucoma, but their mechanism of action differs from that of latanoprost. They work by inhibiting carbonic anhydrase in the ciliary body, which reduces the rate of aqueous humour production and thus decreases intraocular pressure.
+
+Reduces aqueous production + increases outflow
+
+is another incorrect option. This describes the combined actions of two different classes of drugs: beta-blockers (e.g., timolol) which reduce aqueous humour production, and prostaglandin analogues like latanoprost which increase uveoscleral outflow. However, latanoprost does not have any significant effect on aqueous production.
+
+The option
+
+Opens up drainage pores
+
+may be misleading as it suggests a mechanical action rather than a pharmacological one. This could describe trabeculoplasty, a laser treatment for open-angle glaucoma that aims to improve drainage through the trabecular meshwork (the 'drainage pores'). But this does not apply to latanoprost or any other ocular hypotensive medication.
+
+Finally,
+
+Reduces aqueous production
+
+would be correct for medications such as beta-blockers or carbonic anhydrase inhibitors but not for latanoprost. As stated earlier, latanoprost works by increasing uveoscleral outflow rather than decreasing aqueous production."
+76,"A 24-year-old man self-presents to the eye casualty department. He admits to being persuaded to attend by his girlfriend as he is not normally keen on seeing doctors. The patient has a past medical history of ulcerative colitis.
+
+The doctor performs a preliminary examination of the eyes and decides that either the episclera or the sclera are inflamed. He subsequently performs a slit lamp examination.
+
+Which key feature of the history or examination classically differentiates between the two diagnoses?","[""Association with autoimmune disease"", ""Fluorescein staining"", ""Laterality"", ""Pain"", ""Redness of eyes""]",Pain,3,"Scleritis is painful, episcleritis is not painful
+
+The correct answer is the presence of pain. Classically, episcleritis is a milder condition without any pain (although occasionally may be uncomfortable). Scleritis is almost always painful and is a more serious condition. Whilst episcleritis is usually self-limiting, scleritis requires intervention.
+
+Association with autoimmune disease would not particularly help to differentiate between episcleritis and scleritis. Both are commonly associated with a number of autoimmune and rheumatological diseases, including rheumatoid arthritis, ulcerative colitis and granulomatosis with polyangiitis.
+
+Fluorescein staining would not help to differentiate between the two. This is used to detect corneal abnormalities; as such, it does not help with regards to episcleritis and scleritis.
+
+Laterality is not a particularly useful discriminator between the two conditions either - episcleritis is bilateral in about 40% of cases and, similarly, scleritis is bilateral in approximately 50% of cases.
+
+The redness of the eyes would not help to differentiate between scleritis and episcleritis - in both conditions, the eyes will be visibly red."
+77,"A 75-year-old is referred to the ophthalmology clinic with a progressive reduction in visual acuity, reduced night vision, and occasional floaters.
+
+Fundoscopy shows the presents of yellow pigment deposits in the macular area as well as demarcated red patches in keeping with fluid leakage and haemorrhage. She is otherwise well and has no significant past medical history. Given the patient's like diagnosis her ophthalmologist suggests a treatment that directly inhibits vascular endothelial growth factors.
+
+What management is the patient to be commenced on?","[""Bevacizumab"", ""Fluocinolone"", ""Laser photocoagulation"", ""Verteporfin"", ""Zinc supplementation""]",Bevacizumab,0,"Bevacizumab is a monoclonal antibody directed against vascular endothelial growth factor (VEGF)
+
+The patient has presented with the classic signs and symptoms of age-related macular degeneration (AMD), specifically the neovascular or exudative (also known as 'wet') form of the condition. Vision loss is due to the proliferation of abnormal blood vessels (neovascularisation) within the eye that are fragile, leaking blood and protein below the macula, damaging the photoreceptors. This abnormal vessel growth is stimulated by vascular endothelial growth factor (VEGF) which is specifically targeted and blocked by the monoclonal antibody
+
+bevacizumab
+
+. Bevacizumab and other anti-VEGF treatments (e.g. ranibizumab and pegaptanib) are now used as first-line treatment for AMD via direct intraocular injection.
+
+Fluocinolone
+
+is a corticosteroid used via intraocular injection in some eye conditions as an anti-inflammatory. Corticosteroids are used in conditions such as diabetic macular oedema, vasculo-occlusive macular oedema, posterior uveitis and, on rare occasions, for AMD however they do not affect VEGF and working as anti-inflammatories only.
+
+Laser photocoagulation
+
+is used in the management of several eye conditions, normally to finely cauterise ocular blood vessels; it does not affect VEGF. It is mainly used to close blood vessels in diabetic retinopathy and is rarely used now AMD, in favour of anti-VEGF drugs.
+
+Verteporfin
+
+is a medication used as a photosensitiser prior to photodynamic therapy. Verteporfin can be used in eye conditions with ocular vessel proliferation where it accumulates in the abnormal vessels.  When exposed to a specific red light wavelength in phototherapy there is a resulting local damage to these vessels endothelium, blocking and destroying them. Although used in AMD, again verteporfin is not an anti-VEGF drug.
+
+Zinc supplementation
+
+can slow the progression of AMD however it has not been associated with an anti-VEGF effect and is instead thought to work by increasing autophagy, the orderly degradation and recycling of cellular components, something that is decreased in AMD."
+78,A 45-year-old man presents to the Emergency Department following the sudden onset of pain in the right side of his face whilst hammering a nail into the wall. The pain is described as severe and constant. On examination he has a mild right ptosis and small right pupil. What is the most likely diagnosis?,"[""Trigeminal neuralgia"", ""Glaucoma"", ""Carotid artery dissection"", ""Syringomyelia"", ""Migraine""]",Carotid artery dissection,2,
+79,"A 74-year-old man presents to the emergency department with sudden, painless loss of vision in his right eye. He denies headache, photophobia, flashers/floaters or painful eye movements. He has a past medical history of hypertension and ischaemic heart disease.
+
+On examination, the acuity in the right eye is reduced to finger counting. The acuity in the left eye is normal. On fundoscopy, retinal haemorrhages are evident. Eye movements are normal in all directions. The red reflex is present.
+
+What is the most likely diagnosis?","[""Amaurosis fugax"", ""Central retinal artery occlusion"", ""Central retinal vein occlusion"", ""Temporal arteritis"", ""Vitreous haemorrhage""]",Central retinal vein occlusion,2,"Central retinal vein occlusion - sudden painless loss of vision, severe retinal haemorrhages on fundoscopy
+
+Central retinal vein occlusion
+
+is correct. Central retinal vein occlusion presents as a sudden painless reduction in visual acuity. Common risk factors include chronic glaucoma, hypertension and increasing age. Fundoscopy findings are described as looking like a stormy sunset, with retinal haemorrhages and engorged veins visible.
+
+Amaurosis fugax
+
+is incorrect. In amaurosis fugax, a transient loss of vision occurs progressively, classically like a curtain coming down. There are multiple causes, with some of the more common including internal carotid or ophthalmic artery atherosclerosis, acute closed-angle glaucoma, vasospasm, giant cell arteritis and hyperviscosity of the blood. The presentation described above could fit with amaurosis fugax; however, amaurosis fugax would not explain the fundoscopy findings, making this answer less likely.
+
+Central retinal artery occlusion
+
+is incorrect. This is usually due to a thromboembolic occlusion. It would also present as a sudden painless loss of vision; however, fundoscopy would show a pale retina with a cherry-red spot at the macula.
+
+Temporal arteritis
+
+is incorrect. This can present as a sudden painless loss of vision; however, the patient does not describe a headache, which makes this diagnosis less likely. Additionally, the retinal haemorrhages on fundoscopy are not seen in temporal arteritis.
+
+Vitreous haemorrhage
+
+is incorrect. This would be caused by bleeding, usually from new vessels formed as part of diabetic retinopathy. On fundoscopy, the red reflex may be absent and the retina may be obscured by the bleeding."
+80,A 25-year-old woman presents with a one-day history of a painful and red left eye. She describes how her eye is continually streaming tears. On examination she exhibits a degree of photophobia in the affected eye and application of fluorescein demonstrates a dendritic pattern of staining. Visual acuity is 6/6 in both eyes. What is the most appropriate management?,"[""Topical steroid"", ""Perform a lumbar puncture"", ""Treat with subcutaneous sumatriptan"", ""Topical aciclovir"", ""Topical chloramphenicol""]",Topical aciclovir,3,
+81,"A 65-year-old male who has a new diagnosis of giant cell arteritis has had a positive relative afferent pupillary defect (RAPD) in his left eye on examination.
+
+Which of the following describes the finding of RAPD in this man?","[""The right eye appears to dilate when light is shone on the right eye"", ""The left eye appears to dilate when light is shone on the left eye"", ""The left and right eye appears to dilate when light is shone on the left eye"", ""The left and right eye appears to dilate when light is shone on the right eye"", ""The left and right eye appears to constrict when light is shone on the left eye""]",The left and right eye appears to dilate when light is shone on the left eye,2,"A relative afferent pupillary defect is when the affected and normal eye appears to dilate when light is shone on the affected eye
+
+A RAPD is caused by differences between the two eyes in the afferent pathway due to retinal or optic nerve disease. This leads to reduced constriction, hence appears as dilation, of both pupils when light is shone from the unaffected eye to the affected eye."
+82,"A 65-year-old woman presents to the Emergency Department with visual problems. She has rheumatoid arthritis, depression and takes medication to control her blood pressure. Over the past few days she has been getting troublesome headaches and blurred vision but today has noted a marked reduction in vision in the right eye. On examination her right eye is red, has a sluggish pupil and a corrected visual acuity 6/30. Her medication has recently been changed. Which one of the following drugs is most likely to have precipitated this event?","[""Methotrexate"", ""Doxazosin"", ""Amitriptyline"", ""Atenolol"", ""Bendroflumethiazide""]",Amitriptyline,2,
+83,"A 25-year-old woman attends the emergency department with a gradual loss of vision in her left eye. She explains this has been progressing over the last couple of days. She is not experiencing any black spots or curtain-like sensations in her vision.
+
+On examination, there is pain in eye movement, with a relative afferent pupillary defect and central scotoma.
+
+Given the likely diagnosis, what else would be expected in her presentation?","[""Jaw claudication"", ""Optic disc cupping"", ""Poor discrimination of colour"", ""Ptosis"", ""Symptoms worse in the dark""]",Poor discrimination of colour,2,"Colour vision ('red desaturation') is affected in optic neuritis
+
+Poor discrimination of colour
+
+is the correct answer. The diagnosis described in this patient is optic neuritis. This is inflammation of the optic nerve due to multiple sclerosis, diabetes or syphilis. As described optic neuritis will present with gradual loss of visual acuity, painful eye movements, a relative afferent pupillary defect and evidence of a central scotoma. Another important feature of optic neuritis is affected colour vision and red desaturation of images.
+
+Jaw claudication
+
+is incorrect. This would be seen classically in a diagnosis of temporal arteritis. Although this would also present with visual loss and a relative afferent pupillary defect due to an affected optic nerve as described in this vignette, patients typically do not describe a central scotoma. They also may describe a severe unilateral headache over the temporal region which is not seen in this patient, and patients are often older on initial presentation.
+
+Optic disc cupping
+
+is incorrect. This can be seen in a diagnosis of primary open-angle glaucoma. Although patients can also describe a gradual visual loss as seen in this patient, they typically have a loss of the peripheral fields of vision, as opposed to the development of a central scotoma that is described in this vignette.
+
+Ptosis
+
+is incorrect. This is seen in a variety of conditions some of which include a third nerve palsy and myasthenia gravis. Given the most likely diagnosis in this vignette is optic neuritis due to this patient's presentation, ptosis is not the most appropriate answer as this is not seen in cases of optic neuritis.
+
+Symptoms worse in the dark
+
+is incorrect. Although symptoms may be worse in the dark this is not a characteristic feature seen in optic neuritis. This presenting feature can be seen in retinitis pigmentosum, a genetic disorder that leads to loss of night vision and peripheral vision."
+84,Which one of the following causes of Horner's syndrome is due to a lesion in the post-ganglionic part of the nerve supply?,"[""Internal carotid aneurysm"", ""Stroke"", ""Syringomyelia"", ""Pancoast's tumour"", ""Thyroidectomy""]",Internal carotid aneurysm,0,"Horner's syndrome - anhydrosis determines site of lesion:
+
+The correct answer is
+
+Internal carotid aneurysm
+
+. Horner's syndrome results from interruption of the sympathetic nerve supply to the eye and can occur at different anatomical levels. An internal carotid artery aneurysm affects the post-ganglionic sympathetic fibers that travel along the internal carotid artery after they have passed through the superior cervical ganglion. This causes the classic triad of ptosis, miosis, and anhidrosis on the affected side.
+
+Stroke
+
+typically affects the central (first-order) neurons in the hypothalamus or brainstem, representing a central cause of Horner's syndrome rather than a post-ganglionic lesion.
+
+Syringomyelia
+
+affects the pre-ganglionic (second-order) neurons in the spinal cord, typically at the C8-T2 level. This represents another central cause rather than a post-ganglionic lesion.
+
+Pancoast's tumor
+
+affects the pre-ganglionic sympathetic fibers as they exit the spinal cord and travel through the thoracic apex, before reaching the superior cervical ganglion. This is therefore a pre-ganglionic rather than post-ganglionic cause.
+
+Thyroidectomy
+
+can cause Horner's syndrome by damaging the cervical sympathetic chain during surgery, which contains pre-ganglionic fibers. This represents another pre-ganglionic cause rather than a post-ganglionic lesion."
+85,"A 66-year-old woman attends a diabetic eye screening clinic for her annual review. She has a history of poorly controlled type 2 diabetes mellitus and the previous appointment showed some evidence of diabetic retinopathy.
+
+On examination, numerous microaneurysms, blot haemorrhages and hard exudates are noted across the retina, as well as significant venous beading. She is urgently referred for panretinal laser photocoagulation.
+
+What complication is most strongly associated with this treatment?","[""Chronic pain in the eye"", ""Decrease in central vision"", ""Decrease in colour vision"", ""Decrease in night vision"", ""Temporary worsening of blood glucose control""]",Decrease in night vision,3,"A decrease in night vision is a potential complication of panretinal photocoagulation
+
+Panretinal photocoagulation (PRP) is a commonly used technique in the treatment of diabetic retinopathy. It involves the use of a laser to make small burns across the peripheral retina, halting/reducing neovascularisation. As the peripheral fields are targeted, patients often notice a
+
+decrease in night vision
+
+, as rods are predominantly responsible for this, and the majority of rod cells are found in the peripheral retina. This correlates with a reduction in the peripheral field of vision.
+
+Chronic pain in the eye
+
+is not commonly associated with PRP. Patients often experience temporary pain in the eye following the procedure, but this does not typically last more than 24-48 hours.
+
+A
+
+decrease in central vision
+
+is not typically associated with PRP. The procedure targets the peripheral retina and so central vision is usually spared.
+
+A
+
+decrease in colour vision
+
+is sometimes associated with PRP. However, this is not as common as a decrease in night vision, as rod cells are affected disproportionately greater than cone cells.
+
+A
+
+temporary worsening of blood glucose control
+
+is not associated with PRP. The procedure acts locally on the affected eye and is not known to systemically alter blood glucose levels."
+86,"A 72-year-old man is admitted to the acute medical ward with shortness of breath. He is normally well. His only past medical history is of primary open-angle glaucoma for which he takes timolol.
+
+What is the mechanism of action for this medication?","[""Increases uveoscleral outflow"", ""Pupil constriction"", ""Pupil dilatation"", ""Reduces aqueous production"", ""Reduce aqueous production and increase uveoscleral outflow""]",Reduces aqueous production,3,"Beta blockers such as timolol work in primary open-angle glaucoma by reducing aqueous production
+
+Timolol is a beta-blocker and works to decrease intraocular pressure by reducing production of aqueous humour.
+
+Prostaglandin analogues such as latanoprost are first-line agents in primary open-angle glaucoma and these work by increasing uveoscleral outflow, but they do not reduce aqueous production.
+
+Miotics such as pilocarpine work on the muscarinic receptor causing pupil constriction and therefore increase uveoscleral outflow.
+
+Pupil dilatation actually decreases uveoscleral outflow and can exacerbate glaucoma.
+
+Sympathomimetics such as brimonidine have a dual-action and reduce the ocular pressure by reducing aqueous production and increases outflow."
+87,"Each one of the following is a cause of a mydriatic pupil, except:","[""Third nerve palsy"", ""Atropine"", ""Holmes-Adie pupil"", ""Argyll-Robertson pupil"", ""Traumatic iridoplegia""]",Argyll-Robertson pupil,3,
+88,"A 34-year-old female patient is brought into the emergency department by her husband. Husband reports that she has been confused in the last 3 days. She has a long-standing history of severe psoriasis but no other past medical history. Basic observations are all within normal range and a CT head is unremarkable. A fundoscopy reveals bilateral papilloedema.
+
+What is the likely cause?","[""Encephalitis"", ""Brain abscess"", ""Primary brain tumour"", ""Vitamin A toxicity"", ""Hydrocephalus""]",Vitamin A toxicity,3,"Vitamin A toxicity is a rare cause of papilloedema
+
+Vitamin A toxicity is a rare cause of papilloedema. In this case, she is likely to have been taking retinoids for psoriasis.
+
+Encephalitis does not usually present with papilloedema.
+
+Brain abscess, brain tumour and hydrocephalus are all less likely with a normal CT head."
+89,"A 64-year-old man with a 20-year history of type 2 diabetes mellitus is seen in clinic with worsening vision over the last 8 months.
+
+Visual acuity is reduced, and fundoscopy shows numerous microaneurysms, blot haemorrhages, hard exudates, and evidence of neovascularisation. He is recommended to undergo pan-retinal laser photocoagulation as part of his treatment.
+
+Which option is a potential complication of the procedure?","[""Corneal scarring"", ""Decrease in night vision"", ""Endophthalmitis"", ""Optic disc swelling"", ""Retinal vein occlusion""]",Decrease in night vision,1,"A decrease in night vision is a potential complication of panretinal photocoagulation
+
+Decrease in night vision
+
+is correct. A longstanding history of type 2 diabetes mellitus, progressive visual deterioration, and fundoscopy findings of microaneurysms, blot haemorrhages, hard exudates, and crucially neovascularisation, suggest proliferative diabetic retinopathy (PDR). Microaneurysms, blot haemorrhages, and hard exudates can occur in non-proliferative diabetic retinopathy, while neovascularisation signifies progression to the proliferative stage. PDR results from retinal ischaemia, triggering vascular endothelial growth factor (VEGF)-mediated abnormal new vessel formation. Pan-retinal laser photocoagulation (PRP) is indicated to treat PDR by ablating peripheral ischaemic retina to reduce VEGF-driven neovascularisation. However, PRP destroys peripheral photoreceptors responsible for scotopic (night) vision, leading to decreased night vision as a common complication.
+
+Corneal scarring
+
+is incorrect as PRP does not involve the cornea. It involves applying laser burns to the retinal surface to reduce neovascularisation, and so, it does not cause damage to the corneal tissue. Corneal scarring may instead occur in anterior segment surgery, corneal trauma, or infection.
+
+Endophthalmitis
+
+is incorrect as PRP does not involve breaching the globe or introducing pathogens into the intraocular space, making the risk of endophthalmitis low. Endophthalmitis may instead occur if the patient has undergone intraocular surgery, such as vitrectomy or procedures like intravitreal injections, where there is a risk of direct pathogen entry into the eye.
+
+Optic disc swelling
+
+is incorrect as PRP is not known to cause optic nerve oedema. It targets the peripheral retina to reduce neovascularisation, without directly affecting the optic nerve head. Optic disc swelling is instead caused by conditions leading to raised intracranial pressure (papilloedema) or optic neuritis.
+
+Retinal vein occlusion
+
+is incorrect (RVO) as PRP is not known to cause RVO. PRP  mainly targets the peripheral retina to reduce ischaemia and neovascularisation without causing venous thrombosis or obstruction. However, RVO can be caused by diabetes mellitus itself, hypertension, and hypercoagulable states (e.g. malignancy)."
+90,"A 54-year-old woman with a 10-year history of rheumatoid arthritis presents to the hospital eye clinic with a 2-day history of redness in her right eye. She reports that the redness has been gradually worsening but denies any visual loss or photophobia. On examination, there is marked erythema localised to the temporal aspect of the sclera. She describes mild discomfort but no significant pain. Her vision is unchanged from baseline and there is no discharge. What is the most likely diagnosis?","[""Episcleritis"", ""Scleritis"", ""Keratoconjunctivitis sicca"", ""Anterior uveitis"", ""Conjunctivitis""]",Episcleritis,0,"Scleritis is painful, episcleritis is not painful
+
+Episcleritis
+
+is the correct answer as it typically presents with sectoral redness, mild discomfort, and no significant pain or visual disturbance. It is commonly associated with systemic inflammatory conditions such as rheumatoid arthritis. The absence of severe pain or photophobia helps distinguish it from more serious ocular involvement.
+
+Scleritis
+
+usually causes severe, boring eye pain that may radiate to surrounding facial structures and can be associated with visual impairment. The scenario specifically notes only mild discomfort without significant pain, making scleritis less likely despite the background of rheumatoid arthritis.
+
+Keratoconjunctivitis sicca
+
+, also known as dry eye syndrome, is very common in patients with rheumatoid arthritis but usually presents with gritty sensation, dryness, and sometimes mild conjunctival injection rather than focal scleral redness or discomfort described here.
+
+Anterior uveitis
+
+often presents with photophobia, blurred vision, and a painful red eye; examination typically reveals ciliary injection rather than sectoral scleral erythema. The patient’s lack of photophobia and normal vision makes this unlikely.
+
+Conjunctivitis
+
+generally causes diffuse conjunctival redness (not just sectoral), discharge (absent here), irritation or itchiness rather than focal scleral erythema and discomfort associated with episcleritis."
+91,Which one of the following is the most common ocular manifestation of rheumatoid arthritis?,"[""Scleritis"", ""Episcleritis"", ""Keratoconjunctivitis sicca"", ""Corneal ulceration"", ""Keratitis""]",Keratoconjunctivitis sicca,2,
+92,Which one of the following is not a risk factor for primary open-angle glaucoma?,"[""Diabetes mellitus"", ""Family history"", ""Hypertension"", ""Afro-Caribbean ethnicity"", ""Hypermetropia""]",Hypermetropia,4,"Acute angle closure glaucoma is associated with hypermetropia, where as primary open-angle glaucoma is associated with myopia
+
+The correct answer is
+
+Hypermetropia
+
+. Primary open-angle glaucoma (POAG) is a complex, multifactorial eye disease with an unknown etiopathogenesis. It is known that hypermetropia (farsightedness) does not increase the risk for POAG. In fact, myopia (nearsightedness), rather than hypermetropia, has been associated with an increased risk of developing glaucoma.
+
+Now let's discuss each of the other options:
+
+Diabetes mellitus
+
+has been linked to an increased risk of primary open-angle glaucoma. Studies have shown that diabetic patients are nearly twice as likely to develop POAG compared to non-diabetic individuals. The exact mechanism by which diabetes increases the risk of POAG remains unclear but it may be related to changes in blood flow and metabolism within the optic nerve head.
+
+Family history
+
+is a well-established risk factor for primary open-angle glaucoma. First-degree relatives of individuals with POAG have a significantly higher risk of developing the disease themselves compared to those without a family history.
+
+Hypertension
+
+, or high blood pressure, also increases the risk for primary open-angle glaucoma. Chronic hypertension can lead to vascular changes and damage in the optic nerve, contributing to the pathogenesis of POAG.
+
+Lastly,
+
+Afro-Caribbean ethnicity
+
+is associated with a higher prevalence and severity of primary open-angle glaucoma. People of African descent are up to six times more likely to develop this disease than Caucasians and they tend to experience more severe visual field loss at diagnosis."
+93,"Michael is a 65-year-old man who had presented with a gradual onset of visual changes over the past 1.5 years. More recently, he has found that his peripheral vision has been deteriorating and he has been bumping into objects.
+
+On examination, his eye does not appear erythematous. Ophthalmoscopy reveals bilateral cupping with a cup to disc ratio of 0.7. Tonometry reveals a pressure of 25mmHg in his left eye and 27mmHg in his right eye.
+
+He was trialled on brinzolamide, latanoprost and brimonidine subsequently but these were not tolerated well due to side effects.
+
+What is the mechanism of action of the best alternative medication?","[""Decrease aqueous humour production"", ""Decrease uveoscleral outflow"", ""Dual action ( increase uveoscleral outflow + decrease aqueous humour production)"", ""Increase aqueous humour production"", ""Increase uveoscleral outflow""]",Decrease aqueous humour production,0,"Beta blockers such as timolol work in primary open-angle glaucoma by reducing aqueous production
+
+Primary open-angle glaucoma is caused by a gradual rise in intraocular pressure in the eyes due to reduced drainage within the trabecular meshwork of the eye. This presents as a gradual vision loss. Examination findings include increased cupping and raised intraocular pressure on examination.
+
+The common 1st line treatment of primary open-angle glaucoma includes β-blockers, prostaglandin analogues, carbonic anhydrase inhibitors and alpha-2-agonists. We are told in the stem that the patient is unable to tolerate brinzolamide (carbonic anhydrase inhibitors), latanoprost (prostaglandin analogues) and brimonidine (alpha-2-agonist). This leaves beta-blockers like timolol as the remaining choice. This acts by reducing the aqueous humour production of the eye.
+
+Carbonic anhydrase inhibitors (acetazolamide/dorzolamide/brinzolamide) also act by reducing aqueous humour production.
+
+Prostaglandin analogues (latanoprost) acts by increasing the uveoscleral outflow.
+
+Alpha-2-agonists ( brimonidine) improves symptoms by having a dual action (reducing humour production and increased outflow).
+
+Increasing aqueous humour production will not help treat glaucoma and reduction in uveoscleral outflow is seen in the use of mydriatic agents as they dilate the pupils."

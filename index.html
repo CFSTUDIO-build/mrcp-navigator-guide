@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MRCP Navigator - Advanced Prep Portal</title>
+    
+    <meta name="description" content="A premium, dashboard-driven study portal for MRCP preparation with subject statistics, dynamic analytics, and flagged review sessions." />
+    
+    <!-- Google Fonts: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- Radial Glow Canvas Background -->
+    <div class="bg"></div>
+    
+    <!-- Main Outer Container -->
+    <div id="app-container" class="app-container">
+      
+      <!-- A. DESKTOP SIDEBAR -->
+      <aside id="app-sidebar" class="app-sidebar hidden">
+        <div class="sidebar-header">
+          <div class="sidebar-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+          </div>
+          <span class="logo-title-sm">MRCP Navigator</span>
+        </div>
+        
+        <nav class="sidebar-nav">
+          <button class="nav-item active" data-tab="dashboard-view">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            <span>Home</span>
+          </button>
+          
+          <button class="nav-item" data-tab="subjects-view">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+            <span>Subjects</span>
+          </button>
+          
+          <button class="nav-item" data-tab="bookmarks-view">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+            </svg>
+            <span>Bookmarks</span>
+          </button>
+          
+          <button class="nav-item" data-tab="analytics-view">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+            </svg>
+            <span>Analytics</span>
+          </button>
+        </nav>
+        
+        <div class="sidebar-footer">
+          <span id="sidebar-user-email" class="user-badge-email truncate"></span>
+        </div>
+      </aside>
+
+      <!-- B. MOBILE FLOATING NAVIGATION -->
+      <nav id="mobile-nav" class="mobile-nav hidden">
+        <button class="mobile-nav-item active" data-tab="dashboard-view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+          </svg>
+          <span class="text-xs">Home</span>
+        </button>
+        
+        <button class="mobile-nav-item" data-tab="subjects-view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+          <span class="text-xs">Subjects</span>
+        </button>
+        
+        <button class="mobile-nav-item" data-tab="bookmarks-view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+          </svg>
+          <span class="text-xs">Bookmarks</span>
+        </button>
+        
+        <button class="mobile-nav-item" data-tab="analytics-view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+          </svg>
+          <span class="text-xs">Analytics</span>
+        </button>
+      </nav>
+
+      <!-- C. APP MAIN CONTENT AREA -->
+      <div id="app-main-content" class="app-main-content full-width-centered">
+        
+        <!-- Global Top Header Bar (Only visible when logged in) -->
+        <header id="global-header" class="glass header hidden">
+          <div class="brand">MRCP Navigator</div>
+          <div class="header-actions">
+            <!-- Change Password Toggle -->
+            <button id="open-password-btn" class="icon-btn" aria-label="Change Password" title="Change Password">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 0 1 3 3m3 0a6 6 0 0 1-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-.996.43-1.563A6 6 0 1 1 21.75 8.25Z" />
+              </svg>
+            </button>
+            
+            <!-- Dark / Light Theme Toggle -->
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+              </svg>
+            </button>
+            
+            <!-- Logout Button -->
+            <button id="logout-btn" class="icon-btn danger" aria-label="Logout" title="Logout">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- View Shells (Sections toggle hidden/enter states) -->
+        
+        <!-- 1. LOGIN VIEW -->
+        <section id="login-view" class="glass card hidden">
+          <header class="card-header center flex-col">
+            <div class="app-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+              </svg>
+            </div>
+            <h1 class="logo-title">MRCP Navigator</h1>
+            <p class="muted text-sm subtitle text-center">Prepare for your Royal College of Physicians Examination</p>
+          </header>
+
+          <form id="login-form" class="login-form">
+            <div class="field">
+              <label for="login-email" class="label">Email Address</label>
+              <div class="input-wrap block">
+                <input id="login-email" class="input full-width" type="email" placeholder="enter your registered email..." required />
+              </div>
+            </div>
+            
+            <div class="field">
+              <label for="login-password" class="label">Password</label>
+              <div class="input-wrap block">
+                <input id="login-password" class="input full-width" type="password" placeholder="enter your password..." required />
+              </div>
+              <p class="hint">Access is restricted to pre-authorized medical candidates.</p>
+            </div>
+            
+            <div id="login-error" class="callout incorrect hidden"></div>
+
+            <button id="login-submit-btn" class="btn btn-primary big full-width" type="submit">Login</button>
+          </form>
+        </section>
+
+        <!-- 2. TAB A: DASHBOARD VIEW -->
+        <section id="dashboard-view" class="tab-sheet hidden">
+          <!-- Welcome Bar -->
+          <div class="welcome-bar mb-6">
+            <div>
+              <h2 class="welcome-title text-2xl font-extrabold font-title">Welcome back, doctor.</h2>
+              <p class="muted text-sm mt-1">Ready to review your clinical knowledge today?</p>
+            </div>
+          </div>
+          
+          <!-- Statistics Widget Row -->
+          <div class="dashboard-stats grid-3">
+            <div class="glass stat-card">
+              <span class="stat-label text-xs">Total Practiced</span>
+              <span id="stats-answered" class="stat-value">0</span>
+            </div>
+            <div class="glass stat-card">
+              <span class="stat-label text-xs">Overall Accuracy</span>
+              <span id="stats-accuracy" class="stat-value">0%</span>
+            </div>
+            <div class="glass stat-card">
+              <span class="stat-label text-xs">Flagged Questions</span>
+              <span id="stats-flagged" class="stat-value">0</span>
+            </div>
+          </div>
+
+          <!-- Daily Focus & Goal Tracker -->
+          <div class="glass daily-focus-card mt-6">
+            <div class="daily-progress-gauge">
+              <svg class="goal-ring" viewBox="0 0 80 80">
+                <circle class="ring-bg" cx="40" cy="40" r="34"></circle>
+                <circle id="goal-ring-fill" class="ring-fill" cx="40" cy="40" r="34" style="stroke-dasharray: 213.63; stroke-dashoffset: 213.63;"></circle>
+              </svg>
+              <div class="ring-text">
+                <span id="goal-count-text" class="font-bold text-sm">0/20</span>
+              </div>
+            </div>
+            <div class="goal-details">
+              <h4 class="text-sm font-semibold">Daily Practice Goal</h4>
+              <p id="goal-status-text" class="text-xs muted mt-1">Complete 20 questions to maintain your learning streak.</p>
+            </div>
+            <div class="streak-badge-wrap">
+              <span id="streak-count-val" class="streak-badge">0 Day Streak 🔥</span>
+            </div>
+          </div>
+
+          <!-- Weak Areas / Priority Alert -->
+          <div id="weak-subjects-panel" class="glass alert-panel mt-6">
+            <div class="alert-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+              </svg>
+            </div>
+            <div class="alert-content">
+              <h4 class="text-sm font-semibold">Priority Subjects (Areas of Improvement)</h4>
+              <div id="weak-subjects-list" class="badge-row mt-1">
+                <span class="muted text-sm">No weak subjects detected. Practice more questions to enable analytics.</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Fast Study Launch Prompts -->
+          <div class="glass study-prompt-card mt-6">
+            <div class="prompt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 1 3 2.48Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.467 5.99 5.99 0 0 0-1.925 3.546 5.974 5.974 0 0 1-2.133-1A3.75 3.75 0 0 0 12 18Z" />
+              </svg>
+            </div>
+            <div class="prompt-details">
+              <h4>Recommended: System-Wide Practice</h4>
+              <p class="text-sm muted">Jump right in where you left off, or review questions you previously flagged.</p>
+            </div>
+            <button id="quick-practice-btn" class="btn btn-primary btn-sm">Start Review</button>
+          </div>
+          
+          <!-- Danger zone settings footer -->
+          <footer class="dashboard-footer mt-8 text-center">
+            <button id="reset-btn" class="btn btn-ghost btn-sm danger-text">Reset History & Progress Data</button>
+          </footer>
+        </section>
+
+        <!-- 3. TAB B: SUBJECTS VIEW -->
+        <section id="subjects-view" class="tab-sheet hidden">
+          <div class="section-header mb-6">
+            <h2 class="section-title text-2xl font-extrabold font-title">Practice Subjects</h2>
+            <p class="muted text-sm mt-1">Select a clinical category to launch a custom study session</p>
+          </div>
+          <div id="subject-grid" class="subject-grid">
+            <!-- Dynamically loaded cards -->
+          </div>
+        </section>
+
+        <!-- 4. TAB C: BOOKMARKS/FLAGGED REVIEW VIEW -->
+        <section id="bookmarks-view" class="tab-sheet hidden">
+          <div class="section-header mb-6">
+            <h2 class="section-title text-2xl font-extrabold font-title">Flagged Questions</h2>
+            <p class="muted text-sm mt-1">Review complex questions you previously flagged during practice</p>
+          </div>
+
+          <!-- Bookmarks Search Bar -->
+          <div class="bookmarks-search-bar mb-6" id="bookmarks-search-wrap">
+            <div class="input-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 muted mr-2" style="flex-shrink: 0; width: 18px; height: 18px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.637 10.637Z" />
+              </svg>
+              <input id="bookmarks-search" class="input" type="text" placeholder="Search flagged questions by keyword..." style="margin-left: 6px;" />
+            </div>
+          </div>
+          
+          <div class="bookmarks-controls mb-6 hidden" id="bookmarks-controls-panel">
+            <button id="practice-flagged-btn" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+              </svg>
+              <span>Practice Flagged Qs</span>
+            </button>
+          </div>
+          
+          <div id="bookmarks-empty-state" class="glass card empty-state text-center">
+            <div class="empty-icon text-muted mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-16 h-16 inline-block">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+              </svg>
+            </div>
+            <h3>No flagged questions</h3>
+            <p class="muted text-sm mt-1">Bookmark questions during practice sessions to review them here later.</p>
+          </div>
+
+          <div id="bookmarks-list" class="review-list">
+            <!-- Dynamically populated flagged questions list -->
+          </div>
+        </section>
+
+        <!-- 5. TAB D: ANALYTICS VIEW -->
+        <section id="analytics-view" class="tab-sheet hidden">
+          <div class="section-header mb-6">
+            <h2 class="section-title text-2xl font-extrabold font-title">Analytics Breakdown</h2>
+            <p class="muted text-sm mt-1">Detailed evaluation metrics of your clinical performance</p>
+          </div>
+
+          <!-- Performance Trend Chart -->
+          <div class="glass card chart-card mb-6">
+            <h3 class="card-subtitle mb-4">Practice Accuracy Trend (Last 10 sessions)</h3>
+            <div id="analytics-chart-container" class="chart-container" style="height: 220px; position: relative;">
+              <!-- SVG chart injected here -->
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <!-- Accuracy breakdown list per category -->
+            <div class="glass card analytics-card">
+              <h3 class="card-subtitle mb-4">Performance by Subject</h3>
+              <div id="analytics-subject-list" class="analytics-subject-list">
+                <!-- Progress list injected here -->
+              </div>
+            </div>
+            
+            <!-- Historical sessions table logs -->
+            <div class="glass card analytics-card">
+              <h3 class="card-subtitle mb-4">Practice Logs History</h3>
+              <div class="history-table-container">
+                <table class="history-table">
+                  <thead>
+                    <tr>
+                      <th>Subject</th>
+                      <th>Score</th>
+                      <th>Accuracy</th>
+                      <th>Mode</th>
+                    </tr>
+                  </thead>
+                  <tbody id="analytics-history-list">
+                    <!-- Session rows injected here -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. LIVE QUIZ SCREEN (Full Focus View) -->
+        <section id="quiz-view" class="glass card hidden">
+          <header class="quiz-header">
+            <div class="header-left">
+              <span id="quiz-subject-badge" class="subject-badge"></span>
+              <span id="quiz-progress-text" class="progress-info text-sm"></span>
+            </div>
+            
+            <div class="header-right">
+              <!-- Timer Display -->
+              <div class="timer-wrap text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <span id="quiz-timer">00:00</span>
+              </div>
+              
+              <!-- Bookmark Button -->
+              <button id="quiz-bookmark-btn" class="bookmark-btn" aria-label="Bookmark Question">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <!-- Horizontal Topics Bar Navigation Wrapper -->
+          <div class="quiz-topics-nav-container">
+            <button id="quiz-topics-prev-btn" class="topics-scroll-btn prev" aria-label="Scroll topics left">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            
+            <div id="quiz-topics-bar" class="quiz-topics-bar"></div>
+            
+            <button id="quiz-topics-next-btn" class="topics-scroll-btn next" aria-label="Scroll topics right">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
+          </div>
+
+          <article class="quiz-body">
+            <div id="quiz-qtext" class="question-text"></div>
+            <div id="quiz-options-list" class="options-list"></div>
+          </article>
+
+          <div id="quiz-feedback-box" class="callout hidden"></div>
+          <div id="quiz-explanation-box" class="callout explanation hidden"></div>
+
+          <footer class="quiz-footer flex-between">
+            <button id="quiz-finish-btn" class="btn btn-ghost danger-text"><kbd class="btn-kbd">Esc</kbd> Finish Session</button>
+            <div class="row">
+              <button id="quiz-submit-btn" class="btn btn-primary" disabled>Submit Answer</button>
+              <button id="quiz-next-btn" class="btn btn-ghost next-btn hidden" disabled>Next</button>
+            </div>
+          </footer>
+        </section>
+
+        <!-- 7. SESSION SUMMARY SCREEN -->
+        <section id="summary-view" class="glass card hidden">
+          <header class="summary-header text-center">
+            <h2 class="logo-title text-2xl">Session Summary</h2>
+            <p id="summary-subject" class="muted font-semibold uppercase tracking-wider text-sm mt-1"></p>
+          </header>
+
+          <div class="summary-scoreboard flex-center flex-col mt-6">
+            <!-- Accuracy circular gauge -->
+            <div class="accuracy-gauge-container">
+              <svg class="accuracy-gauge" viewBox="0 0 120 120">
+                <defs>
+                  <linearGradient id="gauge-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#6366f1" />
+                    <stop offset="100%" stop-color="#06b6d4" />
+                  </linearGradient>
+                </defs>
+                <circle class="gauge-bg" cx="60" cy="60" r="54"></circle>
+                <circle id="gauge-circle-fill" class="gauge-fill" cx="60" cy="60" r="54" style="stroke-dasharray: 339.29; stroke-dashoffset: 339.29;"></circle>
+              </svg>
+              <div class="gauge-center">
+                <span id="summary-percentage" class="text-3xl font-extrabold font-title">0%</span>
+                <span class="text-xs muted font-medium">Accuracy</span>
+              </div>
+            </div>
+
+            <div class="summary-stats-grid grid-2 mt-6">
+              <div class="glass stat-card">
+                <span class="stat-label text-xs">Score</span>
+                <span id="summary-score" class="text-lg font-bold">0 / 0</span>
+              </div>
+              <div class="glass stat-card">
+                <span class="stat-label text-xs">Time Taken</span>
+                <span id="summary-time" class="text-lg font-bold">00:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wrong Answers collapsible review accordions -->
+          <section id="summary-review-section" class="summary-review mt-6 hidden">
+            <h3 class="section-title text-base mb-4">Wrong Answers for Review</h3>
+            <div id="summary-review-list" class="review-accordion-list">
+              <!-- Rendered as collapsible blocks -->
+            </div>
+          </section>
+
+          <footer class="summary-footer flex-center gap-4 mt-8">
+            <button id="summary-restart-btn" class="btn btn-primary big">Restart Subject</button>
+            <button id="summary-back-btn" class="btn btn-ghost big">Dashboard</button>
+          </footer>
+        </section>
+
+      </div> <!-- End Content -->
+      
+    </div> <!-- End Container -->
+
+    <!-- D. GLOBAL MODALS OVERLAYS -->
+
+    <!-- 1. PRACTICE SETUP MODAL -->
+    <div id="setup-modal" class="modal-overlay hidden">
+      <div class="glass card modal-card">
+        <header class="modal-header">
+          <h3 id="setup-subject-title">Practice Setup</h3>
+          <button id="close-setup-btn" class="icon-btn sm" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </header>
+        
+        <div class="setup-form">
+          <div class="field">
+            <label class="label">Quiz Mode</label>
+            <div class="toggle-group full-width">
+              <label class="toggle-option flex-1">
+                <input type="radio" name="setup-quiz-mode" value="study" checked>
+                <span class="text-center py-2">Study Mode (Immediate explanations)</span>
+              </label>
+              <label class="toggle-option flex-1">
+                <input type="radio" name="setup-quiz-mode" value="exam">
+                <span class="text-center py-2">Exam Mode (Grades at the end)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="field mt-4">
+            <label for="setup-start-index" class="label">Start from Question Number</label>
+            <div class="input-wrap block">
+              <input id="setup-start-index" class="input" type="number" min="1" step="1" value="1">
+            </div>
+            <p class="hint">Leave at 1 to practice from the beginning.</p>
+          </div>
+
+          <div class="modal-actions mt-8">
+            <button id="launch-session-btn" class="btn btn-primary big full-width">Start Study Session</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. PASSWORD CHANGE MODAL -->
+    <div id="password-modal" class="modal-overlay hidden">
+      <div class="glass card modal-card">
+        <header class="modal-header">
+          <h3>Change Password</h3>
+          <button id="close-password-btn" class="icon-btn sm" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </header>
+        
+        <form id="password-form" class="password-form">
+          <div class="field">
+            <label for="pwd-current" class="label">Current Password</label>
+            <div class="input-wrap block">
+              <input id="pwd-current" class="input" type="password" required />
+            </div>
+          </div>
+          
+          <div class="field">
+            <label for="pwd-new" class="label">New Password</label>
+            <div class="input-wrap block">
+              <input id="pwd-new" class="input" type="password" minlength="6" required />
+            </div>
+            <p class="hint">Minimum 6 characters.</p>
+          </div>
+          
+          <div class="field">
+            <label for="pwd-confirm" class="label">Confirm New Password</label>
+            <div class="input-wrap block">
+              <input id="pwd-confirm" class="input" type="password" minlength="6" required />
+            </div>
+          </div>
+
+          <div id="pwd-error" class="callout incorrect hidden"></div>
+          
+          <div class="modal-actions mt-6">
+            <button type="submit" class="btn btn-primary full-width">Update Password</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Main Module Orchestrator script -->
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

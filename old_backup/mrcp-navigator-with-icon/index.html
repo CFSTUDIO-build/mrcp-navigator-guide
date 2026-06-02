@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MRCP Navigator</title>
+    <link rel="stylesheet" href="styles.css" />
+      <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <main class="shell">
+      <header class="glass header">
+        <div class="brand">MRCP Navigator</div>
+        <div class="stats">
+          <span id="subjectBadge" class="chip hidden"></span>
+          <span id="progress" class="muted">0 / 0</span>
+          <span id="score" class="muted">Score: 0</span>
+        </div>
+      </header>
+
+      <section id="start" class="glass card enter">
+        <div class="grid">
+          <div class="field">
+            <label class="label">Subject</label>
+            <div class="subject-accordion" id="subjectAccordion">
+              <button id="subjectToggle" class="dropdown-toggle" aria-expanded="false">
+                <span id="subjectLabel">Choose subject</span>
+                <span class="dot"></span>
+              </button>
+              <div id="subjectPanel" class="panel hidden" role="listbox" aria-label="Subjects"></div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="startIndexInput" class="label">Start from</label>
+            <div class="input-wrap">
+              <span class="prefix">#</span>
+              <input id="startIndexInput" class="input" type="number" min="1" step="1" value="1" />
+            </div>
+            <p class="hint">1-based (e.g., 15 starts at question 15).</p>
+          </div>
+        </div>
+        <div class="row">
+          <button id="startBtn" class="btn btn-primary">Start</button>
+          <button id="resumeBtn" class="btn btn-ghost hidden">Resume</button>
+          <button id="clearBtn" class="btn btn-ghost hidden">Clear saved</button>
+        </div>
+      </section>
+
+      <section id="card" class="glass card hidden">
+        <div class="qhead">
+          <div class="qnum" id="qnum"></div>
+          <div class="qtext" id="qtext"></div>
+        </div>
+
+        <form id="options" class="options"></form>
+
+        <div id="feedback" class="callout hidden"></div>
+        <div id="explanation" class="callout hidden"></div>
+
+        <div class="actions">
+          <div class="row space">
+            <button id="submitBtn" class="btn btn-primary" disabled>Submit</button>
+            <button id="nextBtn" class="btn btn-ghost right" disabled>Next</button>
+          </div>
+          <button id="finishBtn" class="btn btn-ghost big glassy">Finish Session</button>
+        </div>
+      </section>
+
+      <section id="done" class="glass card hidden">
+        <h2 class="title">Session summary</h2>
+        <p id="finalStats" class="muted"></p>
+
+        <div id="review" class="review hidden">
+          <h3>Review: Wrong Answers</h3>
+          <ol id="reviewList"></ol>
+        </div>
+
+        <div class="row center">
+          <button id="restartBtn" class="btn btn-primary">Restart</button>
+          <button id="backBtn" class="btn btn-ghost">Back</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="questions_by_subject.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

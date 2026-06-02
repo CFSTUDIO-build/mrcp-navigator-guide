@@ -1,0 +1,62 @@
+{
+  "Cardiology": {
+    "file": "Cardiology.json",
+    "count": 643
+  },
+  "Clinical Haematology and Oncology": {
+    "file": "Clinical Haematology and Oncology.json",
+    "count": 404
+  },
+  "Clinical Pharmacology and Toxicology": {
+    "file": "Clinical Pharmacology and Toxicology.json",
+    "count": 312
+  },
+  "Clininal_Science": {
+    "file": "Clininal_Science.json",
+    "count": 554
+  },
+  "Dermatology": {
+    "file": "Dermatology.json",
+    "count": 253
+  },
+  "Endocrinology": {
+    "file": "Endocrinology.json",
+    "count": 430
+  },
+  "Gastroenterology": {
+    "file": "Gastroenterology.json",
+    "count": 398
+  },
+  "Geriatric": {
+    "file": "Geriatric.json",
+    "count": 39
+  },
+  "Infectious_Disease": {
+    "file": "Infectious_Disease.json",
+    "count": 544
+  },
+  "Nephrology": {
+    "file": "Nephrology.json",
+    "count": 265
+  },
+  "Neurology": {
+    "file": "Neurology.json",
+    "count": 515
+  },
+  "Opthalmology": {
+    "file": "Opthalmology.json",
+    "count": 93
+  },
+  "Psychiatry": {
+    "file": "Psychiatry.json",
+    "count": 128
+  },
+  "Respiratory medicine": {
+    "file": "Respiratory medicine.json",
+    "count": 240
+  },
+  "Rheumatology": {
+    "file": "Rheumatology.json",
+    "count": 345
+  }
+}

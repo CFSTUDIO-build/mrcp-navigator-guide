@@ -1,0 +1,16 @@
+{
+  "name": "mrcp-navigator",
+  "version": "2.0.0",
+  "description": "Premium study application for MRCP questions",
+  "scripts": {
+    "dev": "npx -y serve .",
+    "convert": "node scripts/csv_to_json.js"
+  },
+  "keywords": [
+    "mrcp",
+    "quiz",
+    "navigator"
+  ],
+  "author": "",
+  "license": "ISC"
+}
