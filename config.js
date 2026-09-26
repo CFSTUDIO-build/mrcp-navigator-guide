@@ -2,6 +2,22 @@
 export const CONFIG = {
   APP_TITLE: "MRCP Navigator",
   
+  // Cloud Sync Configuration (Firebase Firestore)
+  // Fill in your free Firebase project settings to automatically sync across devices.
+  // You can also connect directly from the app UI without editing this file!
+  CLOUD_SYNC: {
+    enabled: true,
+    firebase: {
+      apiKey: "AIzaSyBHoYmiUu8-DCoyiIV8jwyfavNA0Af1Dmw",
+      authDomain: "mrcp-navigator.firebaseapp.com",
+      projectId: "mrcp-navigator",
+      storageBucket: "mrcp-navigator.firebasestorage.app",
+      messagingSenderId: "472997370449",
+      appId: "1:472997370449:web:94435f0ebc3077ed19f670",
+      measurementId: "G-XK58FQP3PG"
+    }
+  },
+  
   // Map of authorized email hashes (SHA-256) to their initial password hashes (SHA-256)
   // Email and passwords are lowercased and trimmed before hashing.
   // To generate new hashes, you can use: console.log(await AuthService.hashEmail("your-email@gmail.com"))

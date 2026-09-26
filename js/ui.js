@@ -206,20 +206,27 @@ export class UIService {
       const subClass = this.getSubjectClass(name);
       card.className = `glass subject-card ${subClass}`;
 
-      const hasSaved = StorageService.hasSavedState(name);
-      const savedState = hasSaved ? StorageService.getSubjectState(name) : null;
+      const progress = StorageService.getSubjectProgress(name);
+      const wrongQs = StorageService.getWrongQuestions(name);
+      const hasActive = StorageService.hasSavedState(name);
+      const savedState = hasActive ? StorageService.getSubjectState(name) : null;
       
+      const totalQuestions = info.count || progress.totalCount || 0;
+      const answeredCount = progress.answeredCount || 0;
+      const correctCount = progress.correctCount || 0;
+      const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+      const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((answeredCount / totalQuestions) * 100)) : 0;
+
       let statusBadge = `<span class="badge-status not-started">○ Not Started</span>`;
-      let progressPercent = 0;
       let progressText = 'Not started';
-      if (savedState) {
-        progressPercent = Math.round((savedState.currentIndex / savedState.total) * 100);
-        progressText = `Question ${savedState.currentIndex + 1} of ${savedState.total}`;
-        if (savedState.currentIndex + 1 >= savedState.total) {
-          statusBadge = `<span class="badge-status completed">✓ Completed</span>`;
+
+      if (answeredCount > 0 || hasActive) {
+        if (progress.isCompleted || (totalQuestions > 0 && answeredCount >= totalQuestions)) {
+          statusBadge = `<span class="badge-status completed">✓ Completed (${accuracy}%)</span>`;
         } else {
-          statusBadge = `<span class="badge-status in-progress">⚡ In Progress</span>`;
+          statusBadge = `<span class="badge-status in-progress">⚡ In Progress (${accuracy}%)</span>`;
         }
+        progressText = `${answeredCount} of ${totalQuestions} answered`;
       }
 
       const humanName = this.formatSubjectName(name);
@@ -230,27 +237,37 @@ export class UIService {
         <div class="card-header">
           <div class="header-left-wrap">
             <h3 class="subject-title">${humanName}</h3>
-            <div class="badges-row mt-1">
+            <div class="badges-row mt-1" style="display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;">
               <span class="subject-count">${info.count} Qs</span>
               ${statusBadge}
+              ${answeredCount > 0 ? `<span class="badge-status" style="background: var(--glass-strong); font-size: 0.72rem; color: var(--fg);">${correctCount}/${answeredCount} Correct</span>` : ''}
             </div>
           </div>
         </div>
         
-        <div class="progress-container ${hasSaved ? '' : 'hidden'}">
+        <div class="progress-container ${answeredCount > 0 || hasActive ? '' : 'hidden'}">
           <div class="progress-bar-bg">
             <div class="progress-bar-fill" style="width: ${progressPercent}%"></div>
           </div>
-          <div class="progress-labels text-xs">
+          <div class="progress-labels text-xs" style="display: flex; justify-content: space-between; margin-top: 0.25rem;">
             <span>${progressText}</span>
             <span>${progressPercent}%</span>
           </div>
         </div>
 
-        <div class="card-actions">
-          ${hasSaved ? `
-            <button class="btn btn-primary btn-sm resume-btn">Resume</button>
-            <button class="btn btn-ghost btn-sm clear-btn">Clear</button>
+        <div class="card-actions" style="display: flex; gap: 0.4rem; align-items: center; margin-top: 1rem; flex-wrap: wrap;">
+          ${hasActive ? `
+            <button class="btn btn-primary btn-sm resume-btn">Resume (Q${savedState.currentIndex + 1})</button>
+            <button class="btn btn-ghost btn-sm clear-btn" title="Reset Subject Progress">↺</button>
+          ` : answeredCount > 0 ? `
+            ${answeredCount < totalQuestions ? `
+              <button class="btn btn-primary btn-sm continue-btn">Continue (Q${(progress.lastIndex || 0) + 2})</button>
+            ` : ''}
+            ${wrongQs.length > 0 ? `
+              <button class="btn btn-warning btn-sm mistakes-btn" title="Review questions answered incorrectly">Review Mistakes (${wrongQs.length})</button>
+            ` : ''}
+            <button class="btn btn-ghost btn-sm practice-launch-btn">Practice fresh &rarr;</button>
+            <button class="btn btn-ghost btn-sm clear-btn" title="Reset Subject Progress">↺</button>
           ` : `
             <button class="btn btn-primary btn-sm practice-launch-btn">Practice fresh &rarr;</button>
           `}
@@ -258,29 +275,57 @@ export class UIService {
       `;
 
       // Event registrations
-      if (hasSaved) {
-        card.querySelector('.resume-btn').addEventListener('click', (e) => {
+      if (hasActive) {
+        card.querySelector('.resume-btn')?.addEventListener('click', (e) => {
           e.stopPropagation();
           onStartSession(name, savedState.mode, savedState.currentIndex + 1, true);
         });
-        card.querySelector('.clear-btn').addEventListener('click', (e) => {
+      }
+
+      const continueBtn = card.querySelector('.continue-btn');
+      if (continueBtn) {
+        continueBtn.addEventListener('click', (e) => {
           e.stopPropagation();
-          if (confirm(`Are you sure you want to clear your saved progress for ${name}?`)) {
+          const nextIdx = Math.min((progress.lastIndex || 0) + 2, totalQuestions);
+          onStartSession(name, 'study', nextIdx, false);
+        });
+      }
+
+      const mistakesBtn = card.querySelector('.mistakes-btn');
+      if (mistakesBtn) {
+        mistakesBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (wrongQs.length > 0) {
+            // Start session on first mistake index (+1 for 1-based startIdx)
+            onStartSession(name, 'study', wrongQs[0] + 1, false);
+          }
+        });
+      }
+
+      const clearBtn = card.querySelector('.clear-btn');
+      if (clearBtn) {
+        clearBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (confirm(`Are you sure you want to reset all progress for ${humanName}? This will clear your saved answers for this subject.`)) {
+            StorageService.resetSubjectProgress(name);
             onClearProgress(name);
           }
         });
-        
-        // Clicking card body allows fresh configuration launcher
-        card.addEventListener('click', (e) => {
-          if (!e.target.classList.contains('btn')) {
-            this.openSetupModal(name, info.count, onStartSession);
-          }
-        });
-      } else {
-        card.addEventListener('click', () => {
+      }
+
+      const practiceBtn = card.querySelector('.practice-launch-btn');
+      if (practiceBtn) {
+        practiceBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
           this.openSetupModal(name, info.count, onStartSession);
         });
       }
+
+      card.addEventListener('click', (e) => {
+        if (!e.target.closest('button')) {
+          this.openSetupModal(name, info.count, onStartSession);
+        }
+      });
 
       grid.appendChild(card);
     });
@@ -1011,5 +1056,207 @@ export class UIService {
       .replace(/'/g, "&#039;");
     
     return escaped.replace(/\n/g, "<br>");
+  }
+
+  /**
+   * Updates Cloud Sync status badges and indicators across UI.
+   * @param {object} status 
+   */
+  static updateCloudSyncStatus(status) {
+    const dotEls = [
+      document.getElementById('cloud-sync-dot'),
+      document.getElementById('sidebar-sync-dot'),
+      document.getElementById('modal-sync-dot')
+    ];
+
+    const labelEl = document.getElementById('cloud-sync-label');
+    const sidebarLabelEl = document.getElementById('sidebar-sync-label');
+    const modalTextEl = document.getElementById('modal-sync-text');
+    const modalBadgeEl = document.getElementById('modal-status-badge');
+
+    let dotClass = 'local';
+    let labelText = 'Local Profile';
+
+    switch (status.state) {
+      case 'connected':
+        dotClass = 'connected';
+        labelText = 'Cloud Synced';
+        break;
+      case 'syncing':
+        dotClass = 'syncing';
+        labelText = 'Syncing...';
+        break;
+      case 'connecting':
+        dotClass = 'syncing';
+        labelText = 'Connecting...';
+        break;
+      case 'error':
+        dotClass = 'error';
+        labelText = 'Sync Error';
+        break;
+      case 'disconnected':
+      default:
+        dotClass = 'local';
+        labelText = 'Local Profile';
+        break;
+    }
+
+    dotEls.forEach(dot => {
+      if (dot) {
+        dot.className = `sync-dot ${dotClass}`;
+      }
+    });
+
+    if (labelEl) labelEl.textContent = labelText;
+    if (sidebarLabelEl) sidebarLabelEl.textContent = status.message || labelText;
+    if (modalTextEl) modalTextEl.textContent = status.message || labelText;
+    if (modalBadgeEl) {
+      modalBadgeEl.className = `badge-status ${dotClass === 'connected' ? 'completed' : dotClass === 'error' ? 'not-started' : 'in-progress'}`;
+    }
+  }
+
+  /**
+   * Opens the Cloud Sync & Profile Backup modal dialog.
+   */
+  static openCloudSyncModal(userEmail, onSaveCloudConfig, onClearCloudConfig) {
+    const modal = document.getElementById('cloud-sync-modal');
+    if (!modal) return;
+
+    const emailEl = document.getElementById('modal-profile-email');
+    if (emailEl) emailEl.textContent = userEmail || 'guest';
+
+    const configInput = document.getElementById('firebase-config-input');
+    const msgEl = document.getElementById('cloud-sync-msg');
+    if (msgEl) msgEl.classList.add('hidden');
+
+    const savedConfig = localStorage.getItem('MRCP_CLOUD_CONFIG');
+    if (configInput) {
+      if (savedConfig) {
+        try {
+          configInput.value = JSON.stringify(JSON.parse(savedConfig), null, 2);
+        } catch (e) {
+          configInput.value = savedConfig;
+        }
+      } else {
+        configInput.value = '';
+      }
+    }
+
+    modal.classList.remove('hidden');
+
+    // Close button
+    const closeBtn = document.getElementById('close-cloud-sync-btn');
+    if (closeBtn) {
+      closeBtn.onclick = () => modal.classList.add('hidden');
+    }
+
+    modal.onclick = (e) => {
+      if (e.target === modal) modal.classList.add('hidden');
+    };
+
+    // Save cloud config button
+    const saveBtn = document.getElementById('save-cloud-config-btn');
+    if (saveBtn) {
+      saveBtn.onclick = async () => {
+        const raw = configInput.value.trim();
+        if (!raw) {
+          if (msgEl) {
+            msgEl.className = 'callout incorrect';
+            msgEl.textContent = 'Please paste your Firebase configuration object.';
+            msgEl.classList.remove('hidden');
+          }
+          return;
+        }
+
+        try {
+          let parsed;
+          const jsonMatch = raw.match(/\{[\s\S]*\}/);
+          if (jsonMatch) {
+            parsed = JSON.parse(jsonMatch[0]);
+          } else {
+            parsed = JSON.parse(raw);
+          }
+
+          saveBtn.disabled = true;
+          saveBtn.textContent = 'Connecting...';
+          if (msgEl) msgEl.classList.add('hidden');
+
+          const success = await onSaveCloudConfig(parsed);
+          if (success) {
+            if (msgEl) {
+              msgEl.className = 'callout correct';
+              msgEl.textContent = 'Connected and synced with Cloud successfully!';
+              msgEl.classList.remove('hidden');
+            }
+            setTimeout(() => modal.classList.add('hidden'), 1500);
+          } else {
+            if (msgEl) {
+              msgEl.className = 'callout incorrect';
+              msgEl.textContent = 'Could not connect. Please verify your apiKey and projectId.';
+              msgEl.classList.remove('hidden');
+            }
+          }
+        } catch (err) {
+          if (msgEl) {
+            msgEl.className = 'callout incorrect';
+            msgEl.textContent = 'Invalid JSON: ' + err.message;
+            msgEl.classList.remove('hidden');
+          }
+        } finally {
+          saveBtn.disabled = false;
+          saveBtn.textContent = 'Save & Connect Cloud';
+        }
+      };
+    }
+
+    // Clear cloud config button
+    const clearBtn = document.getElementById('clear-cloud-config-btn');
+    if (clearBtn) {
+      clearBtn.onclick = () => {
+        if (confirm('Disconnect from Cloud and switch to local-only mode?')) {
+          onClearCloudConfig();
+          if (configInput) configInput.value = '';
+          if (msgEl) {
+            msgEl.className = 'callout';
+            msgEl.textContent = 'Disconnected. Using Local Profile storage.';
+            msgEl.classList.remove('hidden');
+          }
+        }
+      };
+    }
+
+    // Backup Download
+    const downloadBtn = document.getElementById('backup-download-btn');
+    if (downloadBtn) {
+      downloadBtn.onclick = () => {
+        StorageService.downloadBackupFile();
+        UIService.showToast('Profile backup downloaded!', 'success');
+      };
+    }
+
+    // Backup Restore Trigger
+    const restoreTriggerBtn = document.getElementById('backup-restore-trigger-btn');
+    const fileInput = document.getElementById('backup-file-input');
+    if (restoreTriggerBtn && fileInput) {
+      restoreTriggerBtn.onclick = () => fileInput.click();
+
+      fileInput.onchange = (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            StorageService.importProfileData(event.target.result, true);
+            UIService.showToast('Profile data restored successfully!', 'success');
+            modal.classList.add('hidden');
+            window.location.reload();
+          } catch (err) {
+            alert('Failed to import backup: ' + err.message);
+          }
+        };
+        reader.readAsText(file);
+      };
+    }
   }
 }

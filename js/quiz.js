@@ -71,14 +71,16 @@ export class QuizSession {
     
     this.isSubmitted = true;
 
+    const chosenText = question.options[this.selectedOptionIndex] || "—";
+    const correctText = question.correctText || (correctIdx >= 0 ? question.options[correctIdx] : "—");
+
     if (isCorrect) {
       this.score += 1;
     } else {
-      const correctText = question.correctText || (correctIdx >= 0 ? question.options[correctIdx] : "—");
       this.wrongList.push({
         qIndex: this.currentIndex,
         question: question.question,
-        chosenText: question.options[this.selectedOptionIndex] || "—",
+        chosenText: chosenText,
         correctText: correctText,
         explanation: question.explanation || ""
       });
@@ -86,6 +88,17 @@ export class QuizSession {
 
     // Record this practice in daily counters & streaks
     StorageService.recordQuestionPracticed();
+
+    // Permanently record into cumulative profile progress
+    StorageService.recordQuestionAnswer(
+      this.subject,
+      this.currentIndex,
+      isCorrect,
+      this.selectedOptionIndex,
+      chosenText,
+      correctText,
+      this.total
+    );
 
     this.saveProgress();
 

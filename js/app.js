@@ -4,6 +4,7 @@ import { DataService } from './data.js';
 import { StorageService } from './storage.js';
 import { QuizSession } from './quiz.js';
 import { UIService } from './ui.js';
+import { CloudSyncService } from './cloudSync.js';
 
 let activeSession = null;
 
@@ -22,6 +23,54 @@ async function initApp() {
   // Initialize and apply visual theme
   const theme = StorageService.getTheme();
   applyTheme(theme);
+
+  // Initialize Cloud Sync status listener
+  CloudSyncService.onStatusChange((status) => {
+    UIService.updateCloudSyncStatus(status);
+  });
+
+  // Setup Cloud Sync modal triggers
+  const openCloudSync = () => {
+    const userEmail = AuthService.getAuthenticatedUser();
+    UIService.openCloudSyncModal(
+      userEmail,
+      async (newConfig) => {
+        return await CloudSyncService.setConfig(newConfig, StorageService);
+      },
+      () => {
+        CloudSyncService.clearConfig();
+        UIService.showToast('Switched to local profile mode', 'success');
+      }
+    );
+  };
+
+  const cloudSyncBtn = document.getElementById('cloud-sync-btn');
+  if (cloudSyncBtn) cloudSyncBtn.addEventListener('click', openCloudSync);
+
+  const sidebarSyncBtn = document.getElementById('sidebar-sync-btn');
+  if (sidebarSyncBtn) sidebarSyncBtn.addEventListener('click', openCloudSync);
+
+  // Auto-save active quiz session before tab close / refresh
+  const handleUnloadSave = () => {
+    if (activeSession) {
+      activeSession.saveProgress();
+    }
+  };
+  window.addEventListener('beforeunload', handleUnloadSave);
+  window.addEventListener('pagehide', handleUnloadSave);
+
+  // Connect callback so that if cloud pulls newer data on startup, dashboard redraws
+  CloudSyncService.onRemoteUpdateCallback = () => {
+    if (AuthService.isAuthenticated()) {
+      showDashboard();
+    }
+  };
+
+  // Check and initialize Cloud Sync if credentials exist
+  const cloudConfig = CloudSyncService.getConfig(CONFIG.CLOUD_SYNC);
+  if (cloudConfig) {
+    CloudSyncService.init(cloudConfig, StorageService);
+  }
 
   // Setup theme toggle listener
   const themeToggleBtn = document.getElementById('theme-toggle');
@@ -293,6 +342,11 @@ function setupLoginListeners() {
       const success = await AuthService.login(email, password, CONFIG.USERS);
       if (success) {
         UIService.showToast("Logged in successfully!", "success");
+        StorageService.migrateLegacyDataIfNeeded();
+        const cfg = CloudSyncService.getConfig(CONFIG.CLOUD_SYNC);
+        if (cfg) {
+          await CloudSyncService.init(cfg, StorageService);
+        }
         showDashboard();
       } else {
         errorBanner.textContent = "Access denied. Invalid email or password.";
@@ -315,6 +369,8 @@ function setupLoginListeners() {
  * Loads metadata index and draws the dashboard
  */
 async function showDashboard() {
+  StorageService.migrateLegacyDataIfNeeded();
+
   // Update header metadata info
   const userEmailEl = document.getElementById('sidebar-user-email');
   if (userEmailEl) {
